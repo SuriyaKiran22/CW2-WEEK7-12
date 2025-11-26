@@ -1,0 +1,1001 @@
+id,name,source,category,size_mb
+1,Energy_Usage_2021_Q1_95,Kaggle,Machine Learning,1154.89
+2,Sales_Leads_2021_Q1_76,FTP,Cybersecurity,197.5
+3,Retail_SalesForecasting_2022_Q1_72,Internal_DB,Energy,3521.56
+4,Customer_Reviews_2022_Q4_76,Kaggle,Cybersecurity,3806.1
+5,CyberThreat_IntelDump_2024_Q3_36,GCP BigQuery,Machine Learning,4788.2
+6,Finance_Transactions_2021_Q1_49,Azure Blob,Retail,4245.1
+7,Manufacturing_Logs_2023_Q1_94,On-Prem NAS,Healthcare,667.89
+8,Customer_Reviews_2021_Q3_81,REST_API,Manufacturing,1001.83
+9,HR_EmployeeProfiles_2021_Q2_99,Kaggle,Finance,4283.82
+10,Research_Surveys_2021_Q4_36,On-Prem NAS,Energy,4178.85
+11,CyberThreat_IntelDump_2023_Q3_27,Kaggle,Energy,3257.78
+12,Manufacturing_Logs_2022_Q2_21,On-Prem NAS,CRM,1386.24
+13,Energy_Usage_2022_Q3_99,AWS S3,Machine Learning,4117.92
+14,Ecommerce_Orders_2023_Q4_35,Azure Blob,Machine Learning,4570.02
+15,Manufacturing_Logs_2023_Q2_84,On-Prem NAS,CRM,4429.18
+16,Energy_Usage_2024_Q2_34,GCP BigQuery,Machine Learning,3737.7
+17,Healthcare_Records_2023_Q4_75,FTP,Retail,1135.64
+18,CyberThreat_IntelDump_2024_Q1_97,AWS S3,Finance,806.56
+19,CyberThreat_IntelDump_2024_Q1_50,FTP,Manufacturing,4980.8
+20,Healthcare_Records_2023_Q1_88,Azure Blob,Energy,4429.7
+21,Ecommerce_Orders_2023_Q3_15,Kaggle,CRM,832.88
+22,NetworkTraffic_2023_Q2_65,Azure Blob,Energy,1527.3
+23,Energy_Usage_2022_Q2_48,GCP BigQuery,Healthcare,4769.82
+24,Healthcare_Records_2021_Q3_63,AWS S3,Finance,4649.04
+25,Research_Surveys_2023_Q2_08,Internal_DB,Manufacturing,4737.4
+26,HR_EmployeeProfiles_2024_Q1_98,GCP BigQuery,HR,3315.77
+27,Healthcare_Records_2022_Q3_68,FTP,Machine Learning,4648.12
+28,Ecommerce_Orders_2022_Q3_52,REST_API,IoT Sensors,4503.09
+29,CRM_Leads_2021_Q2_29,Azure Blob,Retail,154.12
+30,Healthcare_Records_2022_Q2_01,Azure Blob,Energy,341.43
+31,HR_EmployeeProfiles_2021_Q3_10,Internal_DB,Network Logs,3361.44
+32,Retail_SalesForecasting_2022_Q4_32,On-Prem NAS,CRM,992.53
+33,HR_EmployeeProfiles_2024_Q3_55,FTP,IoT Sensors,4325.99
+34,NetworkTraffic_2021_Q1_52,REST_API,Finance,1280.85
+35,Retail_SalesForecasting_2024_Q2_55,GCP BigQuery,Network Logs,2340.01
+36,Research_Surveys_2021_Q4_71,Azure Blob,Cybersecurity,3278.12
+37,Healthcare_Records_2021_Q1_97,Internal_DB,HR,2061.75
+38,CRM_Leads_2022_Q4_08,GCP BigQuery,CRM,60.67
+39,Customer_Reviews_2023_Q4_37,FTP,Healthcare,3326.26
+40,CRM_Leads_2022_Q2_38,Internal_DB,Cybersecurity,2916.94
+41,Healthcare_Records_2021_Q3_08,AWS S3,Manufacturing,2410.1
+42,Research_Surveys_2022_Q1_66,Azure Blob,HR,389.18
+43,HR_EmployeeProfiles_2022_Q4_16,Internal_DB,Manufacturing,2992.87
+44,Manufacturing_Logs_2021_Q4_85,REST_API,Network Logs,1061.08
+45,Sales_Leads_2023_Q2_34,FTP,HR,3374.87
+46,IoT_SensorReadings_2024_Q3_97,Azure Blob,Cybersecurity,2318.51
+47,Manufacturing_Logs_2021_Q1_69,Internal_DB,Healthcare,1362.74
+48,Finance_Transactions_2021_Q2_48,Kaggle,HR,2219.01
+49,Healthcare_Records_2023_Q1_86,Kaggle,Energy,562.75
+50,CyberThreat_IntelDump_2023_Q1_14,GCP BigQuery,Network Logs,1444.69
+51,Retail_SalesForecasting_2023_Q2_88,Kaggle,Healthcare,2468.23
+52,Research_Surveys_2021_Q1_82,FTP,Network Logs,268.23
+53,Finance_Transactions_2022_Q3_21,On-Prem NAS,Healthcare,3543.05
+54,Healthcare_Records_2021_Q1_10,GCP BigQuery,Healthcare,228.34
+55,Finance_Transactions_2022_Q4_17,AWS S3,Network Logs,1855.03
+56,Ecommerce_Orders_2021_Q3_27,Internal_DB,Energy,558.83
+57,Ecommerce_Orders_2024_Q2_31,GCP BigQuery,HR,4413.01
+58,NetworkTraffic_2022_Q3_53,Internal_DB,Network Logs,838.03
+59,Sales_Leads_2021_Q4_05,On-Prem NAS,Machine Learning,1037.89
+60,CRM_Leads_2023_Q3_30,Internal_DB,Cybersecurity,3317.16
+61,Customer_Reviews_2023_Q3_09,Kaggle,Retail,3225.33
+62,Customer_Reviews_2023_Q1_15,Kaggle,HR,2923.92
+63,IoT_SensorReadings_2021_Q1_77,FTP,Retail,3656.3
+64,Finance_Transactions_2024_Q1_50,Internal_DB,Network Logs,269.71
+65,Customer_Reviews_2021_Q2_47,FTP,Finance,4746.93
+66,Finance_Transactions_2023_Q1_93,Kaggle,Healthcare,1580.96
+67,Customer_Reviews_2023_Q4_90,Kaggle,Healthcare,680.07
+68,Customer_Reviews_2024_Q2_79,Kaggle,CRM,2762.29
+69,NetworkTraffic_2023_Q3_27,FTP,Manufacturing,3052.97
+70,Finance_Transactions_2024_Q4_57,Internal_DB,Healthcare,2392.27
+71,Ecommerce_Orders_2022_Q1_37,REST_API,Finance,4101.2
+72,Ecommerce_Orders_2022_Q3_29,Internal_DB,HR,170.91
+73,Retail_SalesForecasting_2024_Q1_59,FTP,Energy,2899.57
+74,Sales_Leads_2024_Q4_52,Internal_DB,HR,3297.49
+75,NetworkTraffic_2021_Q4_29,GCP BigQuery,Healthcare,2349.52
+76,Healthcare_Records_2022_Q1_59,GCP BigQuery,IoT Sensors,3354.51
+77,Healthcare_Records_2023_Q4_79,FTP,Healthcare,2257.27
+78,CyberThreat_IntelDump_2024_Q4_34,Internal_DB,Energy,1422.69
+79,Ecommerce_Orders_2024_Q2_36,On-Prem NAS,Finance,3582.05
+80,Retail_SalesForecasting_2023_Q3_41,Azure Blob,HR,796.61
+81,Customer_Reviews_2022_Q2_09,FTP,CRM,1687.86
+82,CRM_Leads_2024_Q1_27,FTP,CRM,4528.95
+83,Manufacturing_Logs_2021_Q4_62,AWS S3,Retail,1528.13
+84,Customer_Reviews_2024_Q2_63,Internal_DB,Network Logs,2207.39
+85,NetworkTraffic_2024_Q3_86,FTP,HR,4210.5
+86,CyberThreat_IntelDump_2021_Q4_76,AWS S3,Finance,3231.61
+87,CyberThreat_IntelDump_2024_Q2_07,Kaggle,CRM,1670.4
+88,CRM_Leads_2023_Q3_98,FTP,Network Logs,3772.45
+89,Research_Surveys_2024_Q3_11,On-Prem NAS,Cybersecurity,3757.67
+90,NetworkTraffic_2023_Q2_84,Azure Blob,Energy,249.28
+91,NetworkTraffic_2022_Q2_03,GCP BigQuery,Machine Learning,674.79
+92,Energy_Usage_2021_Q2_60,Kaggle,Retail,880.56
+93,Manufacturing_Logs_2021_Q2_40,Azure Blob,Manufacturing,177.11
+94,IoT_SensorReadings_2024_Q4_92,Internal_DB,Finance,2980.88
+95,Research_Surveys_2022_Q1_90,Kaggle,Energy,3022.04
+96,HR_EmployeeProfiles_2021_Q3_69,FTP,Energy,1884.33
+97,Healthcare_Records_2023_Q1_54,On-Prem NAS,Finance,2195.94
+98,Finance_Transactions_2024_Q2_56,GCP BigQuery,Healthcare,4829.09
+99,IoT_SensorReadings_2024_Q4_56,Kaggle,Retail,4265.98
+100,Research_Surveys_2021_Q3_58,Internal_DB,IoT Sensors,2870.76
+101,Energy_Usage_2024_Q3_04,On-Prem NAS,Retail,950.11
+102,Retail_SalesForecasting_2023_Q3_44,Kaggle,Manufacturing,3520.86
+103,IoT_SensorReadings_2021_Q2_11,Internal_DB,CRM,2468.46
+104,Ecommerce_Orders_2022_Q4_83,On-Prem NAS,IoT Sensors,3975.02
+105,HR_EmployeeProfiles_2023_Q2_52,Internal_DB,Network Logs,3336.6
+106,Finance_Transactions_2024_Q3_55,REST_API,Retail,3529.13
+107,IoT_SensorReadings_2023_Q3_30,Azure Blob,Machine Learning,1611.96
+108,Sales_Leads_2022_Q2_28,On-Prem NAS,Network Logs,3636.7
+109,Ecommerce_Orders_2023_Q1_25,Kaggle,Machine Learning,1836.36
+110,IoT_SensorReadings_2021_Q2_36,AWS S3,Cybersecurity,2789.13
+111,Sales_Leads_2022_Q4_14,AWS S3,Manufacturing,1457.48
+112,CRM_Leads_2024_Q3_24,AWS S3,Network Logs,4708.26
+113,CRM_Leads_2021_Q1_52,On-Prem NAS,Finance,2906.25
+114,Energy_Usage_2021_Q2_20,Kaggle,Finance,4969.89
+115,HR_EmployeeProfiles_2024_Q2_67,FTP,IoT Sensors,4547.1
+116,IoT_SensorReadings_2024_Q3_73,AWS S3,Manufacturing,4802.54
+117,HR_EmployeeProfiles_2022_Q2_34,Azure Blob,HR,1237.33
+118,Healthcare_Records_2021_Q2_01,FTP,IoT Sensors,3462.39
+119,CRM_Leads_2023_Q1_30,Kaggle,Network Logs,3529.79
+120,CRM_Leads_2021_Q2_34,Internal_DB,CRM,618.14
+121,Retail_SalesForecasting_2022_Q3_19,Azure Blob,Cybersecurity,871.32
+122,IoT_SensorReadings_2023_Q4_16,On-Prem NAS,Network Logs,3513.68
+123,IoT_SensorReadings_2024_Q4_11,AWS S3,CRM,3685.94
+124,Manufacturing_Logs_2023_Q1_12,Internal_DB,Energy,4188.0
+125,Manufacturing_Logs_2021_Q3_74,AWS S3,HR,2378.98
+126,Energy_Usage_2024_Q3_24,FTP,Energy,4080.51
+127,HR_EmployeeProfiles_2024_Q3_53,REST_API,Retail,3367.16
+128,Research_Surveys_2022_Q3_53,On-Prem NAS,Network Logs,3329.79
+129,Customer_Reviews_2021_Q4_12,REST_API,Network Logs,1650.21
+130,Ecommerce_Orders_2024_Q1_85,On-Prem NAS,CRM,318.31
+131,Healthcare_Records_2023_Q4_81,On-Prem NAS,Cybersecurity,1057.61
+132,Healthcare_Records_2022_Q3_57,On-Prem NAS,Finance,192.9
+133,Energy_Usage_2022_Q2_40,AWS S3,Healthcare,2069.55
+134,Retail_SalesForecasting_2021_Q4_16,GCP BigQuery,IoT Sensors,4666.63
+135,IoT_SensorReadings_2023_Q4_62,On-Prem NAS,Machine Learning,2311.09
+136,CyberThreat_IntelDump_2024_Q2_77,GCP BigQuery,Finance,1417.42
+137,Ecommerce_Orders_2024_Q3_65,Kaggle,Cybersecurity,1450.05
+138,IoT_SensorReadings_2024_Q2_58,On-Prem NAS,Retail,1695.58
+139,Ecommerce_Orders_2024_Q4_42,Internal_DB,Machine Learning,2880.4
+140,Retail_SalesForecasting_2024_Q1_41,On-Prem NAS,CRM,1961.09
+141,Energy_Usage_2022_Q4_05,GCP BigQuery,Healthcare,4828.5
+142,Finance_Transactions_2021_Q4_13,On-Prem NAS,Cybersecurity,3626.1
+143,Customer_Reviews_2022_Q1_61,Kaggle,Retail,3135.13
+144,Customer_Reviews_2021_Q3_87,FTP,Retail,3152.66
+145,Ecommerce_Orders_2024_Q1_80,Azure Blob,Machine Learning,3174.25
+146,IoT_SensorReadings_2022_Q1_56,Azure Blob,Energy,3534.26
+147,HR_EmployeeProfiles_2024_Q2_89,Kaggle,Cybersecurity,277.66
+148,Ecommerce_Orders_2021_Q3_46,REST_API,CRM,770.57
+149,Healthcare_Records_2024_Q2_22,GCP BigQuery,Finance,3066.98
+150,Customer_Reviews_2022_Q4_75,GCP BigQuery,Machine Learning,2332.69
+151,IoT_SensorReadings_2024_Q3_86,AWS S3,IoT Sensors,4510.99
+152,Energy_Usage_2022_Q1_57,REST_API,Manufacturing,1530.81
+153,Customer_Reviews_2023_Q4_39,Internal_DB,CRM,4274.01
+154,HR_EmployeeProfiles_2022_Q4_74,REST_API,Manufacturing,1514.57
+155,Sales_Leads_2023_Q1_85,FTP,Network Logs,90.08
+156,Research_Surveys_2021_Q4_37,Internal_DB,Manufacturing,4019.56
+157,Retail_SalesForecasting_2022_Q3_87,GCP BigQuery,Energy,530.96
+158,Energy_Usage_2021_Q3_57,AWS S3,Manufacturing,1856.06
+159,CyberThreat_IntelDump_2021_Q3_42,FTP,HR,1043.93
+160,Ecommerce_Orders_2023_Q3_22,Kaggle,IoT Sensors,4838.55
+161,IoT_SensorReadings_2023_Q1_60,Azure Blob,HR,3783.05
+162,Retail_SalesForecasting_2024_Q3_12,FTP,Cybersecurity,1359.07
+163,HR_EmployeeProfiles_2024_Q3_87,Kaggle,Manufacturing,1936.08
+164,Energy_Usage_2023_Q1_87,Internal_DB,IoT Sensors,173.87
+165,Healthcare_Records_2023_Q2_83,Azure Blob,Energy,4128.08
+166,Sales_Leads_2023_Q4_15,GCP BigQuery,Cybersecurity,4733.99
+167,IoT_SensorReadings_2024_Q1_13,Internal_DB,Healthcare,721.54
+168,CRM_Leads_2023_Q4_76,GCP BigQuery,CRM,3291.86
+169,Research_Surveys_2024_Q4_36,AWS S3,Retail,1125.48
+170,CRM_Leads_2022_Q3_13,REST_API,Healthcare,4513.4
+171,Energy_Usage_2023_Q1_51,Kaggle,Machine Learning,4842.62
+172,Research_Surveys_2024_Q1_85,Internal_DB,Energy,3215.49
+173,NetworkTraffic_2021_Q3_32,GCP BigQuery,Manufacturing,1065.77
+174,Research_Surveys_2022_Q2_30,REST_API,HR,3953.79
+175,Manufacturing_Logs_2021_Q3_19,GCP BigQuery,Healthcare,1290.74
+176,CyberThreat_IntelDump_2021_Q1_17,AWS S3,Retail,3960.42
+177,Retail_SalesForecasting_2023_Q1_23,Kaggle,Cybersecurity,677.45
+178,Customer_Reviews_2021_Q1_61,On-Prem NAS,Retail,2590.53
+179,HR_EmployeeProfiles_2024_Q2_79,AWS S3,Energy,2631.18
+180,CRM_Leads_2021_Q1_62,FTP,CRM,3446.18
+181,CRM_Leads_2024_Q1_11,REST_API,Manufacturing,784.25
+182,CyberThreat_IntelDump_2023_Q3_49,Kaggle,IoT Sensors,2552.48
+183,Customer_Reviews_2021_Q1_84,Internal_DB,CRM,2285.2
+184,Retail_SalesForecasting_2024_Q3_59,FTP,CRM,3661.58
+185,Finance_Transactions_2024_Q3_86,Kaggle,Retail,4770.28
+186,Energy_Usage_2024_Q1_12,Azure Blob,Finance,2187.79
+187,Sales_Leads_2023_Q2_72,AWS S3,Manufacturing,4785.29
+188,Healthcare_Records_2023_Q1_53,REST_API,Energy,4708.59
+189,Customer_Reviews_2021_Q3_77,Kaggle,Retail,562.82
+190,Healthcare_Records_2022_Q2_85,On-Prem NAS,Machine Learning,4244.01
+191,Finance_Transactions_2023_Q1_98,Kaggle,Manufacturing,1169.49
+192,Customer_Reviews_2021_Q3_04,GCP BigQuery,Network Logs,3528.36
+193,IoT_SensorReadings_2023_Q3_01,GCP BigQuery,HR,2853.29
+194,Customer_Reviews_2021_Q2_95,AWS S3,Finance,3743.25
+195,Retail_SalesForecasting_2024_Q4_59,REST_API,HR,1881.76
+196,Sales_Leads_2023_Q1_07,GCP BigQuery,HR,3784.46
+197,NetworkTraffic_2021_Q3_57,FTP,IoT Sensors,3055.03
+198,Customer_Reviews_2023_Q2_97,Azure Blob,Retail,2178.07
+199,IoT_SensorReadings_2024_Q3_06,Internal_DB,CRM,4923.01
+200,NetworkTraffic_2021_Q2_39,Internal_DB,HR,3832.6
+201,IoT_SensorReadings_2023_Q1_01,On-Prem NAS,CRM,919.69
+202,Customer_Reviews_2022_Q3_10,FTP,Cybersecurity,2209.29
+203,CRM_Leads_2021_Q3_74,FTP,Manufacturing,2051.89
+204,Energy_Usage_2024_Q3_15,FTP,Cybersecurity,4832.69
+205,CyberThreat_IntelDump_2024_Q3_12,FTP,Finance,1254.42
+206,Manufacturing_Logs_2024_Q1_51,Kaggle,Retail,1146.78
+207,Ecommerce_Orders_2022_Q1_66,Azure Blob,Healthcare,2574.26
+208,Ecommerce_Orders_2023_Q3_94,GCP BigQuery,Machine Learning,558.88
+209,IoT_SensorReadings_2022_Q2_78,GCP BigQuery,Energy,423.0
+210,Ecommerce_Orders_2024_Q4_97,On-Prem NAS,Energy,4624.56
+211,Manufacturing_Logs_2023_Q3_20,On-Prem NAS,Finance,2371.16
+212,Energy_Usage_2023_Q3_76,AWS S3,Retail,2561.32
+213,IoT_SensorReadings_2024_Q4_05,AWS S3,Retail,4166.9
+214,HR_EmployeeProfiles_2021_Q4_60,AWS S3,IoT Sensors,4549.8
+215,Manufacturing_Logs_2022_Q3_78,On-Prem NAS,Healthcare,796.76
+216,NetworkTraffic_2024_Q1_44,Azure Blob,Healthcare,3248.33
+217,NetworkTraffic_2022_Q4_57,GCP BigQuery,Retail,1895.62
+218,IoT_SensorReadings_2024_Q4_44,AWS S3,Energy,3254.16
+219,HR_EmployeeProfiles_2023_Q1_72,FTP,Network Logs,1297.38
+220,Research_Surveys_2022_Q3_11,GCP BigQuery,Retail,1585.65
+221,Energy_Usage_2024_Q2_77,Azure Blob,Network Logs,2816.66
+222,Energy_Usage_2023_Q2_86,Azure Blob,Energy,3368.76
+223,Healthcare_Records_2023_Q1_47,Kaggle,HR,4758.29
+224,Finance_Transactions_2024_Q2_29,GCP BigQuery,HR,431.97
+225,Research_Surveys_2021_Q1_85,REST_API,Manufacturing,698.69
+226,Customer_Reviews_2022_Q2_24,GCP BigQuery,IoT Sensors,266.28
+227,Finance_Transactions_2022_Q4_79,Kaggle,IoT Sensors,1208.31
+228,Retail_SalesForecasting_2023_Q4_25,REST_API,Energy,4738.29
+229,CRM_Leads_2024_Q3_49,FTP,HR,4093.61
+230,Ecommerce_Orders_2022_Q3_07,On-Prem NAS,Retail,2794.98
+231,HR_EmployeeProfiles_2021_Q3_11,GCP BigQuery,Network Logs,2274.13
+232,Healthcare_Records_2022_Q4_12,Internal_DB,IoT Sensors,4428.92
+233,NetworkTraffic_2024_Q1_51,REST_API,Machine Learning,1961.52
+234,HR_EmployeeProfiles_2023_Q2_04,REST_API,Finance,4203.92
+235,Energy_Usage_2023_Q2_18,AWS S3,Network Logs,4591.11
+236,CRM_Leads_2022_Q4_58,AWS S3,Finance,144.07
+237,Retail_SalesForecasting_2022_Q4_15,Kaggle,Machine Learning,1540.7
+238,NetworkTraffic_2022_Q4_82,On-Prem NAS,Finance,598.75
+239,CRM_Leads_2021_Q2_92,GCP BigQuery,Network Logs,2174.73
+240,Manufacturing_Logs_2023_Q2_74,FTP,HR,3338.64
+241,HR_EmployeeProfiles_2023_Q1_68,AWS S3,CRM,4372.99
+242,NetworkTraffic_2024_Q3_33,AWS S3,Retail,3953.17
+243,Finance_Transactions_2022_Q1_99,REST_API,HR,269.46
+244,Healthcare_Records_2023_Q2_88,On-Prem NAS,IoT Sensors,3177.09
+245,Ecommerce_Orders_2022_Q1_92,On-Prem NAS,Cybersecurity,1502.54
+246,NetworkTraffic_2022_Q1_41,Kaggle,Healthcare,2021.21
+247,Research_Surveys_2024_Q3_05,Internal_DB,Network Logs,1817.02
+248,Ecommerce_Orders_2021_Q3_35,Azure Blob,Retail,2212.91
+249,Customer_Reviews_2024_Q4_44,GCP BigQuery,IoT Sensors,3475.74
+250,Finance_Transactions_2023_Q1_94,FTP,Finance,2181.51
+251,Research_Surveys_2022_Q3_42,Azure Blob,Finance,1673.2
+252,IoT_SensorReadings_2023_Q4_78,FTP,HR,3464.34
+253,Finance_Transactions_2024_Q1_94,REST_API,Manufacturing,4990.85
+254,IoT_SensorReadings_2021_Q1_86,FTP,Retail,2589.78
+255,Sales_Leads_2022_Q1_19,On-Prem NAS,Cybersecurity,674.84
+256,Retail_SalesForecasting_2023_Q3_50,AWS S3,Manufacturing,809.52
+257,CRM_Leads_2023_Q3_57,Azure Blob,Manufacturing,731.59
+258,Finance_Transactions_2024_Q3_84,Kaggle,Machine Learning,4804.57
+259,NetworkTraffic_2022_Q4_67,FTP,Healthcare,632.92
+260,Ecommerce_Orders_2023_Q4_28,Kaggle,IoT Sensors,1040.88
+261,CyberThreat_IntelDump_2021_Q4_23,On-Prem NAS,Finance,4062.04
+262,Research_Surveys_2023_Q3_91,Azure Blob,Healthcare,2733.75
+263,IoT_SensorReadings_2022_Q2_47,Internal_DB,Finance,4926.41
+264,Ecommerce_Orders_2022_Q2_64,AWS S3,Retail,2792.41
+265,Finance_Transactions_2024_Q2_79,Azure Blob,Finance,1580.99
+266,Sales_Leads_2024_Q4_99,FTP,Manufacturing,415.07
+267,Finance_Transactions_2021_Q4_60,REST_API,HR,4395.9
+268,Ecommerce_Orders_2022_Q2_56,AWS S3,Finance,2614.61
+269,IoT_SensorReadings_2022_Q2_42,Internal_DB,Retail,4740.04
+270,Healthcare_Records_2023_Q1_33,Internal_DB,Energy,4783.94
+271,IoT_SensorReadings_2022_Q3_79,Azure Blob,Healthcare,3222.89
+272,Manufacturing_Logs_2022_Q2_85,REST_API,Manufacturing,253.91
+273,Research_Surveys_2021_Q1_06,Kaggle,Energy,1093.5
+274,Manufacturing_Logs_2024_Q1_64,Kaggle,Energy,4785.42
+275,CRM_Leads_2022_Q4_39,On-Prem NAS,Finance,3458.64
+276,CyberThreat_IntelDump_2024_Q4_62,On-Prem NAS,Machine Learning,1733.95
+277,CyberThreat_IntelDump_2023_Q3_94,REST_API,CRM,697.29
+278,Finance_Transactions_2021_Q3_31,On-Prem NAS,Finance,1373.98
+279,Retail_SalesForecasting_2022_Q1_07,Kaggle,CRM,4327.61
+280,Customer_Reviews_2022_Q2_42,REST_API,Machine Learning,3827.45
+281,CRM_Leads_2024_Q4_40,On-Prem NAS,Cybersecurity,495.74
+282,Customer_Reviews_2024_Q2_28,REST_API,Cybersecurity,300.18
+283,CRM_Leads_2024_Q3_69,AWS S3,Finance,2183.09
+284,IoT_SensorReadings_2023_Q4_47,AWS S3,CRM,303.23
+285,Healthcare_Records_2022_Q3_71,Kaggle,Finance,1962.43
+286,CRM_Leads_2023_Q1_17,Azure Blob,CRM,1897.33
+287,Finance_Transactions_2023_Q2_26,FTP,Healthcare,249.26
+288,NetworkTraffic_2022_Q3_61,On-Prem NAS,HR,3050.99
+289,Healthcare_Records_2022_Q3_79,REST_API,HR,1995.13
+290,Manufacturing_Logs_2023_Q3_65,On-Prem NAS,Manufacturing,1533.96
+291,Research_Surveys_2021_Q3_43,Azure Blob,CRM,2939.33
+292,Ecommerce_Orders_2021_Q4_34,Internal_DB,Cybersecurity,2938.44
+293,CyberThreat_IntelDump_2024_Q2_88,Internal_DB,Cybersecurity,2884.22
+294,Sales_Leads_2021_Q2_03,On-Prem NAS,Retail,2122.96
+295,Customer_Reviews_2022_Q4_65,On-Prem NAS,Cybersecurity,3543.59
+296,Healthcare_Records_2022_Q3_85,On-Prem NAS,Healthcare,1915.28
+297,CyberThreat_IntelDump_2024_Q3_70,REST_API,Energy,3871.35
+298,Sales_Leads_2023_Q4_25,Internal_DB,Network Logs,2812.53
+299,Retail_SalesForecasting_2023_Q3_91,Internal_DB,IoT Sensors,1619.35
+300,Finance_Transactions_2023_Q3_16,FTP,CRM,4100.97
+301,Ecommerce_Orders_2022_Q3_06,Kaggle,Finance,1764.5
+302,CRM_Leads_2023_Q4_28,Internal_DB,Healthcare,1392.11
+303,Healthcare_Records_2023_Q2_14,Internal_DB,Machine Learning,301.29
+304,Healthcare_Records_2022_Q2_07,Azure Blob,CRM,1684.95
+305,CRM_Leads_2021_Q2_01,GCP BigQuery,CRM,3281.82
+306,CRM_Leads_2024_Q2_97,Kaggle,Retail,1462.81
+307,NetworkTraffic_2021_Q2_69,AWS S3,HR,2118.53
+308,Research_Surveys_2022_Q1_51,On-Prem NAS,HR,4686.21
+309,Research_Surveys_2023_Q1_02,Kaggle,Manufacturing,3033.78
+310,Finance_Transactions_2023_Q4_83,On-Prem NAS,HR,4262.75
+311,CRM_Leads_2023_Q2_15,REST_API,HR,3669.04
+312,Energy_Usage_2023_Q2_02,REST_API,Network Logs,2860.52
+313,Ecommerce_Orders_2022_Q2_79,FTP,CRM,2600.64
+314,HR_EmployeeProfiles_2024_Q1_24,GCP BigQuery,IoT Sensors,1651.83
+315,Retail_SalesForecasting_2021_Q3_50,Internal_DB,IoT Sensors,3781.1
+316,Finance_Transactions_2023_Q1_34,REST_API,Machine Learning,357.52
+317,HR_EmployeeProfiles_2024_Q3_21,FTP,Energy,2537.48
+318,Sales_Leads_2023_Q1_82,Kaggle,Retail,3092.4
+319,Retail_SalesForecasting_2022_Q4_20,On-Prem NAS,Manufacturing,1899.44
+320,Sales_Leads_2024_Q2_98,Internal_DB,Energy,3785.96
+321,Research_Surveys_2021_Q4_68,REST_API,Finance,4590.36
+322,HR_EmployeeProfiles_2021_Q2_74,GCP BigQuery,HR,1674.18
+323,Healthcare_Records_2024_Q1_88,Internal_DB,Manufacturing,2469.7
+324,Healthcare_Records_2024_Q1_59,GCP BigQuery,Healthcare,2106.35
+325,Manufacturing_Logs_2021_Q4_87,Kaggle,Cybersecurity,2009.95
+326,Research_Surveys_2021_Q2_75,Azure Blob,Cybersecurity,2147.3
+327,Sales_Leads_2021_Q1_09,On-Prem NAS,Cybersecurity,1471.1
+328,CyberThreat_IntelDump_2022_Q4_48,FTP,IoT Sensors,4354.62
+329,Customer_Reviews_2024_Q1_88,GCP BigQuery,Energy,4308.42
+330,HR_EmployeeProfiles_2022_Q4_68,GCP BigQuery,Machine Learning,4182.37
+331,Ecommerce_Orders_2021_Q3_60,FTP,Healthcare,1927.42
+332,Retail_SalesForecasting_2022_Q4_45,GCP BigQuery,Network Logs,982.98
+333,Sales_Leads_2021_Q1_85,FTP,Manufacturing,3841.96
+334,NetworkTraffic_2022_Q2_09,Azure Blob,Manufacturing,216.2
+335,Manufacturing_Logs_2021_Q2_95,AWS S3,CRM,2222.87
+336,Healthcare_Records_2022_Q1_18,Kaggle,Machine Learning,4088.14
+337,Sales_Leads_2023_Q3_31,Kaggle,HR,4929.19
+338,Healthcare_Records_2022_Q4_39,Kaggle,Cybersecurity,2805.75
+339,Manufacturing_Logs_2022_Q4_72,On-Prem NAS,Cybersecurity,4862.84
+340,Energy_Usage_2024_Q3_90,FTP,CRM,788.63
+341,Customer_Reviews_2022_Q4_31,Internal_DB,Network Logs,4294.83
+342,CyberThreat_IntelDump_2024_Q1_72,FTP,CRM,2808.57
+343,CyberThreat_IntelDump_2024_Q2_33,Internal_DB,Retail,3251.19
+344,CRM_Leads_2023_Q1_69,Internal_DB,Cybersecurity,1378.88
+345,Energy_Usage_2021_Q1_25,Internal_DB,IoT Sensors,1084.0
+346,Finance_Transactions_2023_Q1_28,Internal_DB,Finance,3747.05
+347,Ecommerce_Orders_2024_Q2_90,Internal_DB,CRM,4579.88
+348,Healthcare_Records_2023_Q3_49,On-Prem NAS,Healthcare,3261.17
+349,IoT_SensorReadings_2023_Q3_66,On-Prem NAS,IoT Sensors,538.11
+350,Sales_Leads_2024_Q3_27,REST_API,Retail,2098.95
+351,Manufacturing_Logs_2022_Q2_03,Kaggle,Healthcare,4677.05
+352,Manufacturing_Logs_2024_Q3_20,Internal_DB,Retail,1188.59
+353,Manufacturing_Logs_2022_Q4_71,REST_API,Network Logs,3828.64
+354,CRM_Leads_2024_Q4_22,REST_API,HR,742.79
+355,Healthcare_Records_2024_Q2_70,AWS S3,Healthcare,217.43
+356,Research_Surveys_2021_Q1_98,AWS S3,CRM,730.58
+357,Energy_Usage_2022_Q1_91,GCP BigQuery,Cybersecurity,1132.66
+358,CRM_Leads_2023_Q1_80,On-Prem NAS,Energy,2464.88
+359,NetworkTraffic_2024_Q1_03,Kaggle,Healthcare,4888.52
+360,NetworkTraffic_2024_Q2_14,Azure Blob,Healthcare,787.04
+361,Retail_SalesForecasting_2023_Q3_35,FTP,Finance,1896.61
+362,Customer_Reviews_2024_Q2_90,Internal_DB,Network Logs,3436.01
+363,Research_Surveys_2021_Q1_12,FTP,CRM,1916.99
+364,CRM_Leads_2021_Q1_90,GCP BigQuery,Finance,2524.3
+365,Customer_Reviews_2023_Q1_68,AWS S3,Machine Learning,1096.51
+366,Research_Surveys_2024_Q3_06,Azure Blob,Energy,4631.64
+367,Healthcare_Records_2021_Q2_41,AWS S3,Machine Learning,2955.83
+368,Ecommerce_Orders_2024_Q1_39,GCP BigQuery,Manufacturing,1240.34
+369,Research_Surveys_2024_Q3_50,GCP BigQuery,Finance,2528.92
+370,Finance_Transactions_2021_Q1_56,Internal_DB,Finance,1735.93
+371,Ecommerce_Orders_2024_Q3_04,Kaggle,IoT Sensors,2478.49
+372,Finance_Transactions_2024_Q4_24,FTP,Finance,3872.23
+373,IoT_SensorReadings_2022_Q1_11,Kaggle,HR,1931.0
+374,Ecommerce_Orders_2022_Q4_41,REST_API,Finance,503.03
+375,IoT_SensorReadings_2024_Q3_98,Kaggle,Finance,705.91
+376,CyberThreat_IntelDump_2024_Q4_72,FTP,Finance,180.0
+377,Finance_Transactions_2021_Q3_50,AWS S3,Network Logs,2098.36
+378,Ecommerce_Orders_2021_Q2_74,GCP BigQuery,Energy,1934.62
+379,CyberThreat_IntelDump_2023_Q3_35,On-Prem NAS,HR,363.17
+380,Customer_Reviews_2023_Q4_39,On-Prem NAS,Finance,1837.57
+381,Retail_SalesForecasting_2024_Q2_59,Azure Blob,HR,1558.06
+382,Customer_Reviews_2023_Q4_43,On-Prem NAS,Retail,2181.55
+383,Research_Surveys_2022_Q3_42,Internal_DB,IoT Sensors,1605.21
+384,Customer_Reviews_2023_Q3_95,On-Prem NAS,Manufacturing,3920.77
+385,Finance_Transactions_2024_Q3_51,REST_API,Finance,4663.73
+386,Retail_SalesForecasting_2022_Q1_94,On-Prem NAS,Machine Learning,2220.35
+387,IoT_SensorReadings_2021_Q4_87,On-Prem NAS,HR,3185.01
+388,Retail_SalesForecasting_2023_Q2_92,FTP,CRM,416.13
+389,Manufacturing_Logs_2024_Q4_69,FTP,Healthcare,231.99
+390,Finance_Transactions_2021_Q1_99,Internal_DB,Energy,3340.23
+391,CyberThreat_IntelDump_2021_Q4_97,REST_API,CRM,574.43
+392,HR_EmployeeProfiles_2023_Q2_66,Internal_DB,IoT Sensors,1901.89
+393,CRM_Leads_2022_Q3_04,On-Prem NAS,Finance,1512.39
+394,HR_EmployeeProfiles_2021_Q2_45,Kaggle,Retail,2303.9
+395,Retail_SalesForecasting_2024_Q3_61,Azure Blob,IoT Sensors,3623.87
+396,CRM_Leads_2023_Q1_39,AWS S3,Finance,161.8
+397,Finance_Transactions_2021_Q2_95,Internal_DB,Healthcare,913.54
+398,CyberThreat_IntelDump_2023_Q4_60,Internal_DB,CRM,3167.31
+399,CyberThreat_IntelDump_2024_Q4_04,Internal_DB,IoT Sensors,2981.41
+400,Customer_Reviews_2021_Q2_27,Kaggle,Finance,2907.87
+401,Ecommerce_Orders_2022_Q3_42,Internal_DB,IoT Sensors,614.08
+402,Energy_Usage_2024_Q3_77,FTP,Manufacturing,1993.09
+403,HR_EmployeeProfiles_2023_Q3_59,GCP BigQuery,Energy,3544.64
+404,IoT_SensorReadings_2021_Q2_41,Azure Blob,Machine Learning,1561.63
+405,CyberThreat_IntelDump_2023_Q2_66,FTP,CRM,3002.31
+406,Manufacturing_Logs_2024_Q4_24,On-Prem NAS,Energy,2710.03
+407,Energy_Usage_2022_Q2_63,Kaggle,HR,976.14
+408,Research_Surveys_2024_Q1_46,AWS S3,IoT Sensors,725.85
+409,Research_Surveys_2024_Q4_53,On-Prem NAS,CRM,3565.2
+410,CRM_Leads_2024_Q2_11,AWS S3,Machine Learning,1495.85
+411,IoT_SensorReadings_2022_Q3_22,On-Prem NAS,Manufacturing,3725.47
+412,Ecommerce_Orders_2024_Q1_74,Azure Blob,Network Logs,3886.81
+413,Research_Surveys_2023_Q1_98,On-Prem NAS,Healthcare,1131.78
+414,Customer_Reviews_2021_Q2_39,AWS S3,IoT Sensors,1350.94
+415,Research_Surveys_2021_Q4_16,Internal_DB,Machine Learning,4062.98
+416,Manufacturing_Logs_2023_Q4_22,GCP BigQuery,Machine Learning,4076.97
+417,Ecommerce_Orders_2021_Q3_69,Kaggle,Manufacturing,2716.9
+418,Finance_Transactions_2023_Q3_74,Kaggle,Healthcare,4928.17
+419,Energy_Usage_2021_Q2_97,FTP,Cybersecurity,4962.81
+420,Research_Surveys_2022_Q2_32,GCP BigQuery,Retail,4150.98
+421,Ecommerce_Orders_2024_Q4_19,Kaggle,Energy,2100.41
+422,CRM_Leads_2021_Q1_52,Kaggle,Retail,2300.74
+423,CRM_Leads_2023_Q1_94,Azure Blob,IoT Sensors,3192.46
+424,Sales_Leads_2023_Q1_69,FTP,Machine Learning,4842.24
+425,Research_Surveys_2022_Q4_35,REST_API,Network Logs,1721.89
+426,Manufacturing_Logs_2022_Q4_44,AWS S3,Cybersecurity,542.89
+427,Ecommerce_Orders_2024_Q1_16,GCP BigQuery,IoT Sensors,2309.76
+428,Customer_Reviews_2022_Q2_84,Kaggle,HR,4378.4
+429,IoT_SensorReadings_2021_Q3_33,Azure Blob,Retail,3339.32
+430,Energy_Usage_2022_Q1_51,Kaggle,Machine Learning,2174.69
+431,HR_EmployeeProfiles_2021_Q1_28,On-Prem NAS,Finance,706.86
+432,Retail_SalesForecasting_2024_Q1_02,REST_API,Finance,4941.37
+433,Customer_Reviews_2022_Q4_10,Internal_DB,CRM,492.19
+434,Ecommerce_Orders_2021_Q1_41,REST_API,Network Logs,728.79
+435,Ecommerce_Orders_2022_Q2_09,AWS S3,Manufacturing,3267.6
+436,CRM_Leads_2023_Q2_81,GCP BigQuery,CRM,3099.58
+437,CRM_Leads_2022_Q1_13,GCP BigQuery,Finance,2968.39
+438,Customer_Reviews_2023_Q4_41,GCP BigQuery,Machine Learning,1420.99
+439,HR_EmployeeProfiles_2022_Q3_89,AWS S3,Energy,4385.34
+440,Retail_SalesForecasting_2022_Q4_38,AWS S3,Machine Learning,2499.69
+441,HR_EmployeeProfiles_2022_Q4_82,Azure Blob,Healthcare,4449.19
+442,NetworkTraffic_2023_Q3_17,FTP,Manufacturing,2133.27
+443,Healthcare_Records_2022_Q4_99,Azure Blob,Cybersecurity,2957.45
+444,NetworkTraffic_2023_Q2_06,AWS S3,CRM,2557.72
+445,Energy_Usage_2024_Q4_90,FTP,Finance,3220.66
+446,Healthcare_Records_2022_Q3_11,Kaggle,Finance,2580.96
+447,Retail_SalesForecasting_2022_Q3_51,Azure Blob,Network Logs,3508.45
+448,Sales_Leads_2022_Q1_32,Azure Blob,CRM,624.13
+449,Manufacturing_Logs_2021_Q3_86,GCP BigQuery,Finance,112.69
+450,CyberThreat_IntelDump_2021_Q2_64,REST_API,Healthcare,2610.25
+451,Research_Surveys_2023_Q2_48,GCP BigQuery,Network Logs,3678.03
+452,HR_EmployeeProfiles_2021_Q3_55,Kaggle,Healthcare,366.17
+453,Sales_Leads_2021_Q4_59,REST_API,Cybersecurity,2523.07
+454,Manufacturing_Logs_2022_Q3_21,Kaggle,Finance,4476.63
+455,Energy_Usage_2021_Q2_95,AWS S3,Cybersecurity,4300.51
+456,NetworkTraffic_2022_Q1_61,REST_API,CRM,4605.12
+457,CyberThreat_IntelDump_2021_Q4_29,REST_API,Machine Learning,2110.47
+458,Sales_Leads_2023_Q3_10,REST_API,Finance,2535.1
+459,NetworkTraffic_2022_Q2_67,AWS S3,CRM,391.19
+460,CRM_Leads_2023_Q3_42,Azure Blob,Healthcare,2310.89
+461,Finance_Transactions_2022_Q3_73,Kaggle,Manufacturing,1250.79
+462,Finance_Transactions_2024_Q2_94,Internal_DB,HR,81.57
+463,Customer_Reviews_2021_Q2_70,REST_API,Energy,4205.89
+464,NetworkTraffic_2023_Q1_98,FTP,Network Logs,564.55
+465,Healthcare_Records_2022_Q4_63,AWS S3,HR,3572.68
+466,HR_EmployeeProfiles_2021_Q2_67,FTP,Retail,2319.37
+467,Sales_Leads_2021_Q1_65,GCP BigQuery,Energy,4108.82
+468,HR_EmployeeProfiles_2021_Q4_85,GCP BigQuery,Machine Learning,1493.8
+469,Research_Surveys_2023_Q4_90,REST_API,Retail,2291.15
+470,Retail_SalesForecasting_2021_Q2_18,Azure Blob,HR,573.01
+471,CRM_Leads_2024_Q3_53,Azure Blob,Healthcare,1823.52
+472,Ecommerce_Orders_2022_Q4_40,On-Prem NAS,Network Logs,4269.79
+473,HR_EmployeeProfiles_2022_Q3_91,AWS S3,Machine Learning,4187.83
+474,Finance_Transactions_2022_Q1_92,Internal_DB,Retail,2011.41
+475,NetworkTraffic_2023_Q3_23,AWS S3,CRM,4280.28
+476,Healthcare_Records_2022_Q1_60,Azure Blob,HR,651.19
+477,NetworkTraffic_2022_Q2_26,FTP,Retail,3447.11
+478,Energy_Usage_2021_Q3_10,AWS S3,Finance,1028.86
+479,Energy_Usage_2024_Q2_12,REST_API,Finance,261.35
+480,CRM_Leads_2021_Q2_74,FTP,CRM,2505.83
+481,Customer_Reviews_2024_Q2_46,Internal_DB,HR,1411.16
+482,CRM_Leads_2022_Q1_79,Internal_DB,Energy,1510.77
+483,Customer_Reviews_2024_Q1_12,Kaggle,CRM,729.32
+484,Retail_SalesForecasting_2022_Q1_49,REST_API,IoT Sensors,2745.36
+485,CRM_Leads_2023_Q3_50,Kaggle,HR,179.01
+486,Manufacturing_Logs_2022_Q1_36,AWS S3,IoT Sensors,2670.69
+487,Ecommerce_Orders_2022_Q2_13,Internal_DB,Energy,1243.71
+488,Healthcare_Records_2021_Q2_74,FTP,Retail,4679.27
+489,Research_Surveys_2022_Q2_31,REST_API,Retail,4574.2
+490,NetworkTraffic_2023_Q2_73,Internal_DB,IoT Sensors,2733.52
+491,CyberThreat_IntelDump_2024_Q1_12,AWS S3,Machine Learning,3028.23
+492,NetworkTraffic_2024_Q1_43,Internal_DB,HR,1736.76
+493,CyberThreat_IntelDump_2023_Q1_03,GCP BigQuery,Manufacturing,3538.25
+494,CyberThreat_IntelDump_2021_Q3_10,REST_API,Energy,2008.2
+495,HR_EmployeeProfiles_2023_Q3_42,GCP BigQuery,HR,3675.14
+496,Customer_Reviews_2024_Q3_23,REST_API,Machine Learning,3344.38
+497,Research_Surveys_2022_Q4_40,Kaggle,HR,929.66
+498,NetworkTraffic_2024_Q1_24,REST_API,Manufacturing,1143.43
+499,Manufacturing_Logs_2021_Q4_19,REST_API,Finance,1228.08
+500,Finance_Transactions_2022_Q1_91,REST_API,IoT Sensors,106.41
+501,Retail_SalesForecasting_2022_Q1_45,Kaggle,Finance,3616.05
+502,NetworkTraffic_2024_Q4_94,FTP,HR,4428.53
+503,CRM_Leads_2024_Q3_70,FTP,Finance,4152.59
+504,Ecommerce_Orders_2022_Q2_58,Azure Blob,Cybersecurity,1509.8
+505,Finance_Transactions_2023_Q1_10,REST_API,HR,4445.26
+506,CyberThreat_IntelDump_2021_Q1_44,On-Prem NAS,Cybersecurity,2185.05
+507,Energy_Usage_2022_Q4_21,AWS S3,Finance,1688.92
+508,Retail_SalesForecasting_2024_Q3_85,Kaggle,Network Logs,1225.86
+509,NetworkTraffic_2024_Q4_20,AWS S3,Retail,68.89
+510,HR_EmployeeProfiles_2023_Q4_26,Azure Blob,Cybersecurity,1074.42
+511,Energy_Usage_2023_Q1_61,Azure Blob,Network Logs,3935.14
+512,CRM_Leads_2024_Q3_12,FTP,HR,1886.55
+513,Customer_Reviews_2023_Q2_58,AWS S3,Network Logs,2226.72
+514,IoT_SensorReadings_2022_Q3_73,AWS S3,HR,3773.56
+515,Energy_Usage_2021_Q1_86,REST_API,Healthcare,2099.23
+516,Ecommerce_Orders_2022_Q1_50,FTP,Healthcare,3450.99
+517,CRM_Leads_2022_Q4_39,Azure Blob,CRM,4518.75
+518,Sales_Leads_2021_Q2_16,On-Prem NAS,HR,4747.85
+519,CyberThreat_IntelDump_2022_Q2_17,AWS S3,CRM,437.92
+520,Energy_Usage_2024_Q2_81,GCP BigQuery,Manufacturing,1326.54
+521,Sales_Leads_2021_Q1_50,FTP,Healthcare,1664.33
+522,IoT_SensorReadings_2024_Q1_90,FTP,Finance,2101.49
+523,CyberThreat_IntelDump_2021_Q1_73,Azure Blob,Network Logs,4344.0
+524,Finance_Transactions_2024_Q3_50,On-Prem NAS,Manufacturing,3064.36
+525,NetworkTraffic_2022_Q3_52,GCP BigQuery,Manufacturing,3062.84
+526,Sales_Leads_2024_Q1_51,REST_API,Machine Learning,293.99
+527,CRM_Leads_2023_Q3_03,REST_API,Network Logs,1589.2
+528,Research_Surveys_2024_Q1_30,GCP BigQuery,Network Logs,4872.39
+529,CRM_Leads_2023_Q3_94,FTP,Manufacturing,3245.5
+530,Retail_SalesForecasting_2024_Q2_53,On-Prem NAS,Healthcare,4342.59
+531,Research_Surveys_2021_Q2_09,Kaggle,Healthcare,2046.76
+532,Ecommerce_Orders_2021_Q2_25,Internal_DB,Cybersecurity,1284.98
+533,CRM_Leads_2021_Q3_91,Internal_DB,Network Logs,1873.34
+534,CRM_Leads_2024_Q1_88,AWS S3,Machine Learning,1893.71
+535,Manufacturing_Logs_2024_Q2_61,REST_API,Retail,859.39
+536,IoT_SensorReadings_2021_Q3_04,FTP,Cybersecurity,856.39
+537,Manufacturing_Logs_2022_Q2_83,Internal_DB,Energy,1073.32
+538,Energy_Usage_2024_Q1_99,AWS S3,IoT Sensors,4562.0
+539,Energy_Usage_2022_Q1_29,Kaggle,Manufacturing,4035.17
+540,IoT_SensorReadings_2023_Q4_49,REST_API,IoT Sensors,1297.39
+541,CRM_Leads_2023_Q4_75,Azure Blob,Cybersecurity,2581.99
+542,Energy_Usage_2023_Q3_39,Azure Blob,IoT Sensors,365.99
+543,IoT_SensorReadings_2023_Q3_34,Kaggle,Machine Learning,792.15
+544,Ecommerce_Orders_2022_Q1_77,FTP,Energy,1631.95
+545,CyberThreat_IntelDump_2021_Q4_38,Kaggle,CRM,2052.76
+546,Sales_Leads_2021_Q2_44,Internal_DB,Energy,2696.44
+547,Ecommerce_Orders_2024_Q3_65,Kaggle,HR,4211.16
+548,Healthcare_Records_2022_Q3_13,On-Prem NAS,HR,3717.55
+549,Sales_Leads_2022_Q3_84,Azure Blob,Machine Learning,1808.65
+550,Sales_Leads_2023_Q4_43,REST_API,Network Logs,2948.57
+551,CRM_Leads_2021_Q4_07,Azure Blob,IoT Sensors,4452.66
+552,Healthcare_Records_2021_Q4_68,Kaggle,CRM,317.61
+553,Research_Surveys_2022_Q2_26,REST_API,CRM,4936.6
+554,CRM_Leads_2022_Q3_92,GCP BigQuery,Finance,2463.53
+555,Energy_Usage_2022_Q3_82,AWS S3,Cybersecurity,2287.66
+556,Retail_SalesForecasting_2022_Q2_63,Azure Blob,HR,3091.67
+557,Energy_Usage_2024_Q4_55,On-Prem NAS,CRM,73.11
+558,Healthcare_Records_2022_Q3_02,REST_API,Healthcare,993.35
+559,Energy_Usage_2021_Q2_29,REST_API,Network Logs,688.21
+560,Customer_Reviews_2023_Q2_09,AWS S3,Network Logs,4744.89
+561,CRM_Leads_2023_Q4_88,GCP BigQuery,Retail,4980.89
+562,CRM_Leads_2023_Q2_22,FTP,Cybersecurity,1180.67
+563,Sales_Leads_2022_Q2_94,AWS S3,Manufacturing,2547.94
+564,HR_EmployeeProfiles_2023_Q1_49,Kaggle,Healthcare,3134.52
+565,Manufacturing_Logs_2021_Q1_84,AWS S3,Cybersecurity,3464.26
+566,Customer_Reviews_2024_Q4_16,Kaggle,IoT Sensors,3524.25
+567,Retail_SalesForecasting_2021_Q3_54,Azure Blob,Energy,2625.53
+568,Manufacturing_Logs_2022_Q4_14,Azure Blob,Network Logs,614.36
+569,HR_EmployeeProfiles_2024_Q2_78,Internal_DB,Network Logs,4165.92
+570,Retail_SalesForecasting_2023_Q4_38,GCP BigQuery,Cybersecurity,2763.29
+571,Retail_SalesForecasting_2024_Q3_31,AWS S3,Cybersecurity,3374.58
+572,HR_EmployeeProfiles_2024_Q2_12,Azure Blob,Finance,4528.66
+573,Energy_Usage_2022_Q4_38,Kaggle,IoT Sensors,297.9
+574,Research_Surveys_2022_Q1_38,REST_API,Energy,1597.9
+575,Sales_Leads_2021_Q1_98,AWS S3,Cybersecurity,4267.39
+576,Energy_Usage_2022_Q3_46,On-Prem NAS,Manufacturing,1378.13
+577,Sales_Leads_2021_Q3_44,GCP BigQuery,Finance,2033.85
+578,CRM_Leads_2023_Q4_89,On-Prem NAS,CRM,3261.79
+579,Ecommerce_Orders_2022_Q1_17,AWS S3,HR,563.38
+580,Manufacturing_Logs_2024_Q4_24,FTP,Retail,3076.22
+581,Research_Surveys_2022_Q4_63,Azure Blob,CRM,2231.41
+582,HR_EmployeeProfiles_2023_Q3_02,Internal_DB,Energy,4372.06
+583,Healthcare_Records_2021_Q4_85,Internal_DB,IoT Sensors,1761.46
+584,Energy_Usage_2024_Q2_72,AWS S3,Cybersecurity,3234.82
+585,CyberThreat_IntelDump_2024_Q4_22,Azure Blob,IoT Sensors,1637.14
+586,Finance_Transactions_2023_Q1_65,Internal_DB,Healthcare,3234.42
+587,Customer_Reviews_2022_Q1_59,On-Prem NAS,Manufacturing,2268.09
+588,Research_Surveys_2024_Q4_41,Azure Blob,IoT Sensors,3738.93
+589,NetworkTraffic_2021_Q4_53,AWS S3,Healthcare,2768.04
+590,Research_Surveys_2021_Q3_66,Internal_DB,Energy,3373.8
+591,Finance_Transactions_2023_Q1_29,On-Prem NAS,Retail,2822.75
+592,Manufacturing_Logs_2024_Q3_92,On-Prem NAS,Finance,532.31
+593,Energy_Usage_2022_Q1_44,REST_API,Energy,4823.95
+594,IoT_SensorReadings_2023_Q1_06,GCP BigQuery,IoT Sensors,745.22
+595,Sales_Leads_2024_Q1_33,Internal_DB,Machine Learning,647.69
+596,Research_Surveys_2024_Q2_59,Internal_DB,Retail,583.44
+597,Customer_Reviews_2021_Q1_99,On-Prem NAS,IoT Sensors,3309.36
+598,Healthcare_Records_2022_Q4_01,AWS S3,Healthcare,4679.78
+599,Research_Surveys_2024_Q2_89,GCP BigQuery,HR,562.59
+600,Energy_Usage_2023_Q4_54,Internal_DB,Network Logs,2019.46
+601,Finance_Transactions_2023_Q4_18,GCP BigQuery,CRM,3032.5
+602,Sales_Leads_2023_Q3_92,Internal_DB,Machine Learning,1088.08
+603,Sales_Leads_2023_Q3_87,GCP BigQuery,Energy,4877.14
+604,CyberThreat_IntelDump_2023_Q1_98,REST_API,Healthcare,2427.83
+605,Manufacturing_Logs_2024_Q3_55,AWS S3,Healthcare,577.03
+606,Customer_Reviews_2022_Q1_86,AWS S3,Machine Learning,1371.54
+607,Ecommerce_Orders_2022_Q3_88,Kaggle,HR,4204.94
+608,Sales_Leads_2023_Q2_97,AWS S3,Retail,4079.43
+609,HR_EmployeeProfiles_2022_Q4_31,Kaggle,Energy,282.55
+610,Customer_Reviews_2024_Q4_88,REST_API,Healthcare,316.32
+611,Sales_Leads_2023_Q2_80,On-Prem NAS,Machine Learning,4561.86
+612,Sales_Leads_2023_Q2_93,Internal_DB,Network Logs,2271.63
+613,Energy_Usage_2021_Q2_23,Azure Blob,CRM,251.14
+614,IoT_SensorReadings_2023_Q2_21,Kaggle,Cybersecurity,1686.29
+615,Sales_Leads_2022_Q1_20,REST_API,Manufacturing,301.73
+616,Energy_Usage_2023_Q4_74,REST_API,Finance,3930.96
+617,Finance_Transactions_2022_Q2_67,Azure Blob,Healthcare,838.88
+618,Healthcare_Records_2024_Q1_45,Internal_DB,Machine Learning,3333.51
+619,Finance_Transactions_2023_Q3_28,On-Prem NAS,Healthcare,4127.26
+620,Energy_Usage_2021_Q1_86,REST_API,IoT Sensors,1239.72
+621,Energy_Usage_2022_Q1_88,REST_API,CRM,4583.87
+622,HR_EmployeeProfiles_2024_Q3_70,Kaggle,Cybersecurity,4561.11
+623,Research_Surveys_2023_Q4_63,AWS S3,Network Logs,4496.49
+624,Retail_SalesForecasting_2023_Q1_13,GCP BigQuery,Healthcare,2689.37
+625,Energy_Usage_2021_Q2_86,Internal_DB,Energy,2149.84
+626,HR_EmployeeProfiles_2022_Q4_83,Azure Blob,Energy,811.09
+627,CRM_Leads_2023_Q1_12,Azure Blob,Cybersecurity,931.06
+628,IoT_SensorReadings_2021_Q2_34,FTP,CRM,2283.07
+629,Customer_Reviews_2024_Q3_03,FTP,Energy,635.61
+630,NetworkTraffic_2021_Q1_90,Azure Blob,Retail,4643.84
+631,HR_EmployeeProfiles_2023_Q3_78,Azure Blob,Network Logs,3838.11
+632,CRM_Leads_2024_Q4_85,AWS S3,IoT Sensors,823.8
+633,Retail_SalesForecasting_2022_Q4_70,Kaggle,Energy,763.17
+634,Energy_Usage_2023_Q1_71,GCP BigQuery,Finance,256.78
+635,Manufacturing_Logs_2024_Q1_40,Internal_DB,Retail,1098.1
+636,Energy_Usage_2022_Q2_24,Internal_DB,Manufacturing,4182.0
+637,Retail_SalesForecasting_2021_Q2_86,AWS S3,Healthcare,2333.26
+638,Healthcare_Records_2021_Q3_86,Azure Blob,Network Logs,536.1
+639,Sales_Leads_2024_Q3_46,GCP BigQuery,Energy,3294.59
+640,HR_EmployeeProfiles_2023_Q1_25,REST_API,IoT Sensors,2280.7
+641,Manufacturing_Logs_2023_Q2_73,REST_API,Retail,4795.36
+642,CyberThreat_IntelDump_2021_Q3_32,Internal_DB,Energy,2208.81
+643,Research_Surveys_2023_Q2_87,REST_API,IoT Sensors,2341.1
+644,Finance_Transactions_2023_Q4_71,Azure Blob,HR,3245.48
+645,HR_EmployeeProfiles_2023_Q2_69,Internal_DB,Network Logs,3681.05
+646,Energy_Usage_2021_Q1_03,AWS S3,Manufacturing,2915.56
+647,Ecommerce_Orders_2022_Q1_71,Kaggle,Healthcare,4475.23
+648,Healthcare_Records_2024_Q2_47,FTP,Machine Learning,4462.62
+649,Manufacturing_Logs_2023_Q2_60,Azure Blob,CRM,1851.13
+650,NetworkTraffic_2022_Q2_97,GCP BigQuery,IoT Sensors,838.15
+651,Manufacturing_Logs_2022_Q4_46,AWS S3,Machine Learning,3819.29
+652,Retail_SalesForecasting_2021_Q3_48,Internal_DB,Cybersecurity,3359.5
+653,Healthcare_Records_2023_Q4_61,On-Prem NAS,Cybersecurity,247.53
+654,Energy_Usage_2023_Q1_91,Kaggle,Network Logs,2914.23
+655,Manufacturing_Logs_2022_Q4_84,FTP,Retail,2959.01
+656,Research_Surveys_2021_Q3_49,Internal_DB,Healthcare,2058.92
+657,Research_Surveys_2023_Q4_62,AWS S3,Healthcare,4416.07
+658,CRM_Leads_2022_Q2_10,Kaggle,Machine Learning,793.69
+659,CyberThreat_IntelDump_2023_Q1_85,Internal_DB,CRM,4065.3
+660,Sales_Leads_2021_Q4_87,On-Prem NAS,IoT Sensors,1092.98
+661,CyberThreat_IntelDump_2024_Q1_32,AWS S3,HR,2888.76
+662,CyberThreat_IntelDump_2022_Q1_74,GCP BigQuery,Cybersecurity,873.39
+663,CyberThreat_IntelDump_2024_Q1_93,Kaggle,Finance,1122.14
+664,Manufacturing_Logs_2024_Q4_22,Internal_DB,CRM,3024.15
+665,Ecommerce_Orders_2022_Q3_22,REST_API,IoT Sensors,3002.84
+666,HR_EmployeeProfiles_2022_Q4_50,GCP BigQuery,Finance,131.99
+667,Healthcare_Records_2024_Q2_78,Azure Blob,HR,2405.55
+668,Manufacturing_Logs_2021_Q1_12,On-Prem NAS,Energy,695.13
+669,Manufacturing_Logs_2021_Q4_67,FTP,Retail,4380.38
+670,Sales_Leads_2024_Q2_62,FTP,Retail,2965.79
+671,Sales_Leads_2021_Q4_18,Kaggle,IoT Sensors,3841.0
+672,Research_Surveys_2021_Q3_77,FTP,Network Logs,985.65
+673,Sales_Leads_2021_Q1_67,AWS S3,CRM,3290.0
+674,Sales_Leads_2023_Q4_47,Azure Blob,HR,2159.05
+675,Manufacturing_Logs_2023_Q3_69,FTP,Manufacturing,1859.94
+676,IoT_SensorReadings_2024_Q2_53,On-Prem NAS,HR,1882.55
+677,Healthcare_Records_2024_Q3_40,REST_API,CRM,3692.12
+678,Research_Surveys_2021_Q2_58,GCP BigQuery,Finance,1111.57
+679,Customer_Reviews_2023_Q1_21,FTP,Energy,76.19
+680,HR_EmployeeProfiles_2022_Q4_77,FTP,Finance,367.2
+681,Retail_SalesForecasting_2023_Q1_78,AWS S3,CRM,4656.89
+682,Customer_Reviews_2023_Q1_23,On-Prem NAS,IoT Sensors,103.02
+683,Research_Surveys_2023_Q2_05,Internal_DB,Manufacturing,888.94
+684,NetworkTraffic_2023_Q2_84,AWS S3,HR,479.87
+685,IoT_SensorReadings_2024_Q3_86,FTP,CRM,2951.1
+686,Healthcare_Records_2021_Q1_12,Kaggle,Healthcare,4579.29
+687,Finance_Transactions_2023_Q3_29,Internal_DB,IoT Sensors,4652.08
+688,Manufacturing_Logs_2021_Q3_23,FTP,Healthcare,577.0
+689,HR_EmployeeProfiles_2023_Q3_15,Kaggle,Healthcare,4075.08
+690,Manufacturing_Logs_2023_Q4_49,On-Prem NAS,Machine Learning,3799.49
+691,Ecommerce_Orders_2024_Q4_76,AWS S3,IoT Sensors,625.53
+692,HR_EmployeeProfiles_2024_Q2_87,Internal_DB,Retail,2091.51
+693,Finance_Transactions_2021_Q3_32,Kaggle,Finance,2024.71
+694,Sales_Leads_2023_Q1_71,GCP BigQuery,IoT Sensors,1603.67
+695,Retail_SalesForecasting_2023_Q2_96,Internal_DB,IoT Sensors,3698.71
+696,Retail_SalesForecasting_2022_Q3_27,Internal_DB,Machine Learning,4182.96
+697,Research_Surveys_2023_Q2_14,Azure Blob,Finance,3395.27
+698,Energy_Usage_2024_Q1_98,AWS S3,IoT Sensors,1887.42
+699,Finance_Transactions_2024_Q3_63,GCP BigQuery,Healthcare,1437.32
+700,Retail_SalesForecasting_2022_Q1_68,FTP,IoT Sensors,4701.29
+701,NetworkTraffic_2023_Q4_88,GCP BigQuery,IoT Sensors,4883.71
+702,Sales_Leads_2024_Q3_89,AWS S3,Cybersecurity,3386.81
+703,Customer_Reviews_2021_Q3_47,Kaggle,HR,2765.39
+704,Retail_SalesForecasting_2023_Q4_79,REST_API,Retail,960.37
+705,Customer_Reviews_2022_Q4_90,REST_API,Retail,4278.91
+706,IoT_SensorReadings_2024_Q2_74,GCP BigQuery,Manufacturing,3445.76
+707,Research_Surveys_2021_Q3_31,FTP,CRM,1020.51
+708,Ecommerce_Orders_2022_Q4_02,GCP BigQuery,CRM,2523.01
+709,Research_Surveys_2023_Q4_39,Kaggle,Healthcare,4299.58
+710,NetworkTraffic_2024_Q1_89,GCP BigQuery,Cybersecurity,1116.56
+711,IoT_SensorReadings_2024_Q1_58,REST_API,Network Logs,1836.76
+712,Healthcare_Records_2023_Q3_03,FTP,Finance,1787.9
+713,Energy_Usage_2022_Q2_37,REST_API,Retail,3382.3
+714,CRM_Leads_2024_Q1_49,Kaggle,IoT Sensors,3176.98
+715,CyberThreat_IntelDump_2022_Q3_54,FTP,Finance,441.6
+716,Finance_Transactions_2022_Q3_41,Kaggle,Network Logs,3046.66
+717,Customer_Reviews_2023_Q4_47,On-Prem NAS,CRM,878.22
+718,Research_Surveys_2021_Q2_94,Internal_DB,Energy,1295.65
+719,Sales_Leads_2021_Q2_22,FTP,Finance,522.99
+720,CRM_Leads_2021_Q1_99,FTP,Healthcare,3836.73
+721,HR_EmployeeProfiles_2021_Q3_80,GCP BigQuery,Finance,3291.42
+722,Customer_Reviews_2023_Q2_32,Kaggle,IoT Sensors,3151.08
+723,CyberThreat_IntelDump_2022_Q1_05,REST_API,Retail,4327.99
+724,CRM_Leads_2023_Q4_18,GCP BigQuery,Manufacturing,3008.04
+725,Energy_Usage_2024_Q3_45,On-Prem NAS,Healthcare,1174.29
+726,HR_EmployeeProfiles_2024_Q3_47,FTP,Network Logs,820.8
+727,NetworkTraffic_2021_Q2_45,Kaggle,IoT Sensors,2698.74
+728,Sales_Leads_2024_Q4_39,AWS S3,CRM,3999.93
+729,Manufacturing_Logs_2022_Q1_71,REST_API,Machine Learning,2088.09
+730,Healthcare_Records_2024_Q4_32,GCP BigQuery,Energy,1979.13
+731,Customer_Reviews_2022_Q3_11,FTP,Energy,1235.83
+732,Ecommerce_Orders_2023_Q3_84,Kaggle,CRM,980.6
+733,HR_EmployeeProfiles_2022_Q2_38,Azure Blob,Energy,2303.95
+734,CRM_Leads_2023_Q4_25,REST_API,Cybersecurity,803.14
+735,Healthcare_Records_2021_Q2_14,Kaggle,Network Logs,668.94
+736,CRM_Leads_2021_Q2_12,GCP BigQuery,Cybersecurity,2493.22
+737,Finance_Transactions_2024_Q3_64,REST_API,IoT Sensors,3499.83
+738,NetworkTraffic_2023_Q1_97,GCP BigQuery,Cybersecurity,1369.19
+739,Customer_Reviews_2021_Q4_24,Internal_DB,Network Logs,4095.39
+740,Research_Surveys_2021_Q1_99,Internal_DB,CRM,3867.57
+741,CRM_Leads_2022_Q1_26,On-Prem NAS,Finance,2629.64
+742,Retail_SalesForecasting_2024_Q4_88,Kaggle,Retail,835.13
+743,Sales_Leads_2021_Q1_33,On-Prem NAS,Energy,1529.12
+744,Finance_Transactions_2021_Q2_15,Internal_DB,Energy,2199.1
+745,NetworkTraffic_2022_Q3_75,Azure Blob,CRM,3956.26
+746,NetworkTraffic_2021_Q4_89,GCP BigQuery,Retail,3865.45
+747,Retail_SalesForecasting_2022_Q4_12,REST_API,Energy,347.26
+748,Finance_Transactions_2022_Q1_17,On-Prem NAS,Machine Learning,1617.86
+749,Healthcare_Records_2023_Q4_94,Internal_DB,Cybersecurity,3461.79
+750,Finance_Transactions_2022_Q3_06,On-Prem NAS,IoT Sensors,2817.17
+751,Healthcare_Records_2024_Q2_73,GCP BigQuery,Healthcare,1770.94
+752,Sales_Leads_2024_Q3_77,GCP BigQuery,Finance,2679.13
+753,CRM_Leads_2023_Q3_70,REST_API,IoT Sensors,53.56
+754,Energy_Usage_2024_Q2_03,REST_API,Manufacturing,1231.99
+755,Sales_Leads_2021_Q4_25,On-Prem NAS,Healthcare,812.95
+756,IoT_SensorReadings_2023_Q4_83,REST_API,Finance,526.47
+757,Energy_Usage_2021_Q1_17,GCP BigQuery,Cybersecurity,1050.29
+758,CRM_Leads_2022_Q1_05,FTP,Energy,2475.05
+759,Manufacturing_Logs_2023_Q1_47,Internal_DB,Manufacturing,3603.33
+760,NetworkTraffic_2022_Q4_11,On-Prem NAS,Energy,350.47
+761,Healthcare_Records_2024_Q3_91,AWS S3,Manufacturing,1365.79
+762,NetworkTraffic_2021_Q3_10,Internal_DB,Healthcare,530.74
+763,Sales_Leads_2022_Q4_25,Internal_DB,Healthcare,3301.54
+764,Manufacturing_Logs_2022_Q4_96,Azure Blob,Energy,2903.99
+765,Energy_Usage_2024_Q4_14,GCP BigQuery,HR,2772.33
+766,Healthcare_Records_2023_Q2_69,On-Prem NAS,Retail,4517.3
+767,Healthcare_Records_2023_Q3_53,FTP,Retail,3061.65
+768,Manufacturing_Logs_2022_Q4_99,Kaggle,Retail,4810.18
+769,CRM_Leads_2024_Q1_93,AWS S3,Network Logs,2999.03
+770,Healthcare_Records_2022_Q3_01,Kaggle,Machine Learning,1113.37
+771,Finance_Transactions_2021_Q3_71,GCP BigQuery,Finance,236.79
+772,Finance_Transactions_2022_Q2_34,REST_API,Manufacturing,1286.79
+773,IoT_SensorReadings_2023_Q1_74,FTP,Manufacturing,4593.51
+774,Sales_Leads_2021_Q3_62,GCP BigQuery,IoT Sensors,4137.24
+775,Sales_Leads_2021_Q3_05,FTP,Finance,3911.6
+776,Ecommerce_Orders_2023_Q3_56,FTP,Finance,4355.44
+777,Retail_SalesForecasting_2021_Q4_07,Kaggle,Healthcare,253.85
+778,Healthcare_Records_2022_Q3_65,Internal_DB,HR,300.07
+779,Sales_Leads_2024_Q4_97,Azure Blob,Machine Learning,2188.08
+780,Ecommerce_Orders_2024_Q2_17,REST_API,Finance,2405.48
+781,Sales_Leads_2021_Q4_34,Azure Blob,CRM,2534.02
+782,Ecommerce_Orders_2022_Q2_62,Internal_DB,IoT Sensors,2006.83
+783,Manufacturing_Logs_2022_Q2_32,Azure Blob,Network Logs,3895.02
+784,Finance_Transactions_2021_Q1_86,FTP,CRM,1858.07
+785,Retail_SalesForecasting_2023_Q3_77,AWS S3,Network Logs,887.81
+786,Finance_Transactions_2024_Q2_57,AWS S3,Machine Learning,1038.44
+787,Finance_Transactions_2022_Q1_15,AWS S3,Machine Learning,4747.26
+788,CyberThreat_IntelDump_2023_Q1_44,Azure Blob,Network Logs,2277.8
+789,NetworkTraffic_2023_Q2_95,Internal_DB,Machine Learning,2754.8
+790,Ecommerce_Orders_2023_Q4_80,GCP BigQuery,Energy,141.02
+791,Manufacturing_Logs_2021_Q3_22,AWS S3,Network Logs,1043.45
+792,Sales_Leads_2023_Q1_60,AWS S3,Finance,1973.79
+793,IoT_SensorReadings_2023_Q1_03,Kaggle,Energy,1963.29
+794,Customer_Reviews_2021_Q3_63,Azure Blob,HR,1034.43
+795,CRM_Leads_2021_Q1_32,Kaggle,Retail,2475.17
+796,Sales_Leads_2022_Q1_45,REST_API,Retail,3144.89
+797,Retail_SalesForecasting_2023_Q1_81,Kaggle,CRM,4457.49
+798,Research_Surveys_2021_Q3_29,GCP BigQuery,Retail,4491.02
+799,Energy_Usage_2022_Q1_94,FTP,Healthcare,4805.0
+800,Manufacturing_Logs_2022_Q4_31,GCP BigQuery,CRM,4854.16
+801,Manufacturing_Logs_2023_Q4_70,GCP BigQuery,Machine Learning,3279.74
+802,Manufacturing_Logs_2022_Q2_40,GCP BigQuery,CRM,4978.64
+803,Ecommerce_Orders_2022_Q2_41,Azure Blob,Healthcare,2688.16
+804,Sales_Leads_2021_Q2_41,GCP BigQuery,Cybersecurity,3838.9
+805,Customer_Reviews_2024_Q3_57,Kaggle,HR,3906.58
+806,HR_EmployeeProfiles_2022_Q2_04,Kaggle,Manufacturing,2856.86
+807,Retail_SalesForecasting_2022_Q2_88,AWS S3,Retail,443.4
+808,Ecommerce_Orders_2024_Q2_65,On-Prem NAS,Energy,1901.1
+809,Research_Surveys_2024_Q4_61,GCP BigQuery,HR,1006.64
+810,NetworkTraffic_2024_Q1_35,FTP,Machine Learning,3724.71
+811,Retail_SalesForecasting_2022_Q1_23,On-Prem NAS,Manufacturing,2475.22
+812,Finance_Transactions_2024_Q2_55,FTP,Cybersecurity,3059.25
+813,Research_Surveys_2024_Q3_51,AWS S3,Healthcare,591.12
+814,CRM_Leads_2021_Q2_67,FTP,Cybersecurity,2810.62
+815,Healthcare_Records_2021_Q2_38,On-Prem NAS,CRM,4427.77
+816,Ecommerce_Orders_2023_Q4_22,FTP,Network Logs,3085.01
+817,NetworkTraffic_2022_Q4_83,On-Prem NAS,Finance,3627.1
+818,HR_EmployeeProfiles_2022_Q2_51,FTP,Retail,2281.88
+819,CyberThreat_IntelDump_2024_Q2_59,Azure Blob,Network Logs,1654.17
+820,Energy_Usage_2022_Q1_12,Azure Blob,IoT Sensors,3188.66
+821,HR_EmployeeProfiles_2024_Q2_49,FTP,Cybersecurity,3852.89
+822,Finance_Transactions_2022_Q2_19,GCP BigQuery,Cybersecurity,2126.93
+823,IoT_SensorReadings_2024_Q3_81,GCP BigQuery,Finance,4497.78
+824,Retail_SalesForecasting_2021_Q3_02,On-Prem NAS,IoT Sensors,4284.28
+825,Healthcare_Records_2021_Q4_31,Internal_DB,Manufacturing,3314.38
+826,CRM_Leads_2024_Q4_11,AWS S3,Machine Learning,4416.73
+827,IoT_SensorReadings_2022_Q1_24,GCP BigQuery,Cybersecurity,3283.72
+828,NetworkTraffic_2022_Q1_86,Kaggle,Retail,4605.9
+829,NetworkTraffic_2021_Q4_23,GCP BigQuery,Energy,1457.68
+830,Energy_Usage_2022_Q4_96,REST_API,Cybersecurity,510.98
+831,IoT_SensorReadings_2023_Q3_49,Azure Blob,CRM,4224.38
+832,HR_EmployeeProfiles_2023_Q4_18,Azure Blob,Network Logs,1679.58
+833,Customer_Reviews_2022_Q2_79,AWS S3,Finance,2878.27
+834,Energy_Usage_2021_Q4_93,Kaggle,CRM,3063.78
+835,Finance_Transactions_2023_Q3_17,On-Prem NAS,Healthcare,3659.46
+836,CRM_Leads_2024_Q2_79,Internal_DB,Network Logs,4897.33
+837,NetworkTraffic_2021_Q1_60,Azure Blob,Machine Learning,4007.84
+838,Customer_Reviews_2024_Q1_43,REST_API,Healthcare,4039.92
+839,Retail_SalesForecasting_2021_Q2_89,Kaggle,Network Logs,3961.47
+840,IoT_SensorReadings_2023_Q3_99,AWS S3,Finance,3444.89
+841,Finance_Transactions_2024_Q1_23,Internal_DB,Retail,4177.44
+842,Energy_Usage_2024_Q4_05,GCP BigQuery,IoT Sensors,819.16
+843,CRM_Leads_2023_Q4_53,AWS S3,Healthcare,1531.75
+844,Sales_Leads_2023_Q1_27,REST_API,Retail,377.75
+845,CyberThreat_IntelDump_2023_Q1_44,FTP,Energy,2694.65
+846,CyberThreat_IntelDump_2024_Q2_77,Azure Blob,Network Logs,3541.07
+847,Finance_Transactions_2021_Q3_53,Azure Blob,IoT Sensors,4391.39
+848,Finance_Transactions_2024_Q3_28,Kaggle,HR,605.54
+849,Ecommerce_Orders_2021_Q2_12,On-Prem NAS,Healthcare,173.43
+850,CRM_Leads_2022_Q2_44,On-Prem NAS,Healthcare,1586.28
+851,Finance_Transactions_2022_Q1_67,GCP BigQuery,Machine Learning,3636.62
+852,CRM_Leads_2024_Q1_01,Kaggle,Cybersecurity,3450.91
+853,Manufacturing_Logs_2021_Q3_60,AWS S3,Finance,2626.86
+854,Energy_Usage_2023_Q1_74,Kaggle,Energy,4466.07
+855,Finance_Transactions_2022_Q2_37,Kaggle,Healthcare,1629.79
+856,CRM_Leads_2021_Q3_20,GCP BigQuery,Network Logs,616.58
+857,Manufacturing_Logs_2021_Q2_70,REST_API,Healthcare,1626.5
+858,CyberThreat_IntelDump_2023_Q2_22,Azure Blob,Network Logs,3085.65
+859,Finance_Transactions_2024_Q1_17,AWS S3,IoT Sensors,4521.3
+860,NetworkTraffic_2021_Q4_07,Azure Blob,CRM,1989.99
+861,Sales_Leads_2024_Q3_40,REST_API,Machine Learning,3578.85
+862,Energy_Usage_2021_Q4_73,GCP BigQuery,Finance,4073.61
+863,Sales_Leads_2024_Q1_59,Kaggle,Energy,3239.87
+864,Ecommerce_Orders_2024_Q4_30,Internal_DB,HR,4312.43
+865,Manufacturing_Logs_2023_Q3_51,GCP BigQuery,Energy,1685.12
+866,Research_Surveys_2023_Q4_63,AWS S3,Finance,2402.91
+867,Finance_Transactions_2024_Q4_22,Kaggle,Retail,3041.98
+868,CyberThreat_IntelDump_2021_Q4_92,Azure Blob,Retail,2802.94
+869,HR_EmployeeProfiles_2023_Q4_52,FTP,Machine Learning,3123.33
+870,Healthcare_Records_2022_Q4_50,Azure Blob,Retail,1080.78
+871,Sales_Leads_2024_Q4_73,REST_API,Healthcare,3485.96
+872,CyberThreat_IntelDump_2021_Q4_15,On-Prem NAS,Retail,2797.68
+873,Research_Surveys_2024_Q2_40,FTP,Finance,3011.38
+874,Energy_Usage_2024_Q3_64,AWS S3,Finance,1127.18
+875,CyberThreat_IntelDump_2021_Q2_85,GCP BigQuery,IoT Sensors,2679.72
+876,Customer_Reviews_2024_Q2_27,REST_API,Network Logs,2872.87
+877,Energy_Usage_2023_Q4_92,REST_API,Finance,2934.5
+878,Manufacturing_Logs_2024_Q2_38,AWS S3,Retail,4510.32
+879,NetworkTraffic_2021_Q3_15,Kaggle,Cybersecurity,1214.44
+880,Sales_Leads_2024_Q3_92,FTP,CRM,1938.75
+881,Healthcare_Records_2022_Q2_61,GCP BigQuery,Machine Learning,2799.34
+882,Research_Surveys_2023_Q4_20,Kaggle,Energy,671.47
+883,NetworkTraffic_2021_Q1_19,On-Prem NAS,Energy,2211.84
+884,CyberThreat_IntelDump_2021_Q2_83,FTP,IoT Sensors,4473.23
+885,Sales_Leads_2024_Q2_59,FTP,Healthcare,4109.35
+886,Customer_Reviews_2023_Q2_24,FTP,Manufacturing,86.78
+887,CRM_Leads_2022_Q3_53,REST_API,Cybersecurity,4892.26
+888,Manufacturing_Logs_2024_Q3_15,On-Prem NAS,Finance,753.33
+889,Sales_Leads_2023_Q4_67,Azure Blob,Healthcare,4455.08
+890,HR_EmployeeProfiles_2022_Q4_81,Azure Blob,Energy,3186.75
+891,Ecommerce_Orders_2023_Q1_44,AWS S3,IoT Sensors,2297.47
+892,CRM_Leads_2023_Q4_46,Kaggle,Network Logs,879.17
+893,Sales_Leads_2023_Q3_08,On-Prem NAS,Manufacturing,886.94
+894,NetworkTraffic_2023_Q1_37,On-Prem NAS,Finance,677.77
+895,HR_EmployeeProfiles_2023_Q3_17,Kaggle,Network Logs,4296.4
+896,NetworkTraffic_2021_Q2_76,GCP BigQuery,Energy,2260.93
+897,Ecommerce_Orders_2022_Q3_90,Internal_DB,IoT Sensors,945.01
+898,Healthcare_Records_2021_Q3_11,GCP BigQuery,Manufacturing,4673.01
+899,CyberThreat_IntelDump_2024_Q4_99,FTP,Machine Learning,3320.3
+900,Sales_Leads_2022_Q2_74,REST_API,Cybersecurity,3229.19
+901,Ecommerce_Orders_2021_Q1_22,On-Prem NAS,CRM,2407.35
+902,CRM_Leads_2022_Q4_88,FTP,IoT Sensors,1349.99
+903,Healthcare_Records_2024_Q1_37,On-Prem NAS,CRM,3408.54
+904,Healthcare_Records_2021_Q1_69,REST_API,CRM,3071.9
+905,Energy_Usage_2023_Q3_35,Kaggle,Finance,1313.95
+906,Manufacturing_Logs_2024_Q4_99,Internal_DB,Energy,2964.19
+907,Retail_SalesForecasting_2023_Q2_41,AWS S3,Energy,91.96
+908,HR_EmployeeProfiles_2021_Q4_13,Azure Blob,Energy,2257.41
+909,Retail_SalesForecasting_2023_Q3_25,AWS S3,Cybersecurity,3116.02
+910,NetworkTraffic_2022_Q1_91,Azure Blob,Finance,4289.38
+911,CyberThreat_IntelDump_2024_Q2_15,GCP BigQuery,Network Logs,1508.11
+912,Energy_Usage_2021_Q4_36,FTP,Energy,3860.91
+913,Finance_Transactions_2023_Q2_10,Kaggle,Cybersecurity,1944.86
+914,Finance_Transactions_2021_Q3_34,GCP BigQuery,IoT Sensors,393.52
+915,Retail_SalesForecasting_2024_Q2_83,On-Prem NAS,Finance,762.17
+916,Ecommerce_Orders_2024_Q2_79,Azure Blob,IoT Sensors,3591.23
+917,HR_EmployeeProfiles_2021_Q1_10,Kaggle,IoT Sensors,142.89
+918,CRM_Leads_2022_Q1_05,FTP,Network Logs,800.46
+919,Finance_Transactions_2024_Q1_66,On-Prem NAS,IoT Sensors,2208.49
+920,Research_Surveys_2021_Q2_01,FTP,IoT Sensors,649.96
+921,Healthcare_Records_2023_Q3_88,Kaggle,CRM,323.21
+922,Energy_Usage_2021_Q3_69,REST_API,Finance,4213.85
+923,Ecommerce_Orders_2023_Q2_23,AWS S3,CRM,3320.63
+924,IoT_SensorReadings_2024_Q1_81,REST_API,IoT Sensors,470.07
+925,Energy_Usage_2024_Q2_18,AWS S3,Machine Learning,175.55
+926,Manufacturing_Logs_2022_Q4_50,Azure Blob,Healthcare,3234.87
+927,CRM_Leads_2024_Q1_05,REST_API,Cybersecurity,1721.71
+928,Sales_Leads_2021_Q4_16,Internal_DB,Energy,3353.22
+929,CRM_Leads_2022_Q2_10,AWS S3,HR,2470.03
+930,NetworkTraffic_2024_Q1_32,GCP BigQuery,Cybersecurity,902.63
+931,NetworkTraffic_2023_Q1_59,GCP BigQuery,Manufacturing,366.59
+932,Research_Surveys_2021_Q1_64,Internal_DB,Finance,4032.04
+933,Customer_Reviews_2023_Q4_42,Azure Blob,Energy,2901.04
+934,CyberThreat_IntelDump_2023_Q2_98,AWS S3,Manufacturing,908.57
+935,HR_EmployeeProfiles_2021_Q3_19,FTP,HR,3496.66
+936,Healthcare_Records_2022_Q4_32,AWS S3,HR,544.84
+937,Research_Surveys_2024_Q2_03,On-Prem NAS,Finance,81.43
+938,CyberThreat_IntelDump_2021_Q3_54,On-Prem NAS,HR,1070.49
+939,Energy_Usage_2023_Q4_53,Internal_DB,HR,3072.16
+940,NetworkTraffic_2022_Q4_79,Azure Blob,Energy,4141.09
+941,IoT_SensorReadings_2023_Q4_01,Internal_DB,Machine Learning,631.66
+942,Healthcare_Records_2021_Q3_98,Internal_DB,IoT Sensors,3863.14
+943,Energy_Usage_2022_Q3_07,Internal_DB,Finance,3993.23
+944,Energy_Usage_2024_Q4_23,GCP BigQuery,Energy,4617.23
+945,NetworkTraffic_2023_Q3_27,FTP,Network Logs,1704.76
+946,Ecommerce_Orders_2024_Q1_14,AWS S3,Healthcare,920.64
+947,Ecommerce_Orders_2021_Q4_66,Azure Blob,Finance,4480.64
+948,Sales_Leads_2024_Q3_54,Internal_DB,Energy,4496.95
+949,Retail_SalesForecasting_2021_Q3_30,Azure Blob,Machine Learning,3701.85
+950,Research_Surveys_2022_Q4_29,Azure Blob,IoT Sensors,2946.21
+951,NetworkTraffic_2024_Q2_28,On-Prem NAS,HR,1967.29
+952,CyberThreat_IntelDump_2024_Q2_81,REST_API,Network Logs,1050.94
+953,CyberThreat_IntelDump_2021_Q1_36,GCP BigQuery,Finance,4265.67
+954,CRM_Leads_2024_Q2_98,REST_API,Machine Learning,4437.72
+955,Manufacturing_Logs_2022_Q2_74,Internal_DB,Finance,2087.9
+956,Healthcare_Records_2024_Q2_76,On-Prem NAS,IoT Sensors,1431.9
+957,Sales_Leads_2024_Q2_32,REST_API,CRM,2918.36
+958,Manufacturing_Logs_2022_Q1_54,AWS S3,Cybersecurity,4956.8
+959,Sales_Leads_2021_Q4_68,FTP,IoT Sensors,4058.1
+960,Sales_Leads_2021_Q4_64,Internal_DB,Finance,2814.51
+961,NetworkTraffic_2024_Q2_17,REST_API,Network Logs,1233.36
+962,HR_EmployeeProfiles_2021_Q4_86,Kaggle,HR,3531.36
+963,Research_Surveys_2021_Q4_60,GCP BigQuery,CRM,965.48
+964,Research_Surveys_2023_Q4_91,AWS S3,Energy,399.96
+965,Sales_Leads_2023_Q1_38,FTP,Network Logs,3505.37
+966,Manufacturing_Logs_2022_Q1_80,REST_API,Cybersecurity,2597.95
+967,Energy_Usage_2023_Q1_15,FTP,Retail,2353.5
+968,NetworkTraffic_2023_Q3_23,Azure Blob,Healthcare,3561.22
+969,Retail_SalesForecasting_2022_Q3_31,Azure Blob,Energy,2418.54
+970,Ecommerce_Orders_2022_Q2_42,REST_API,Network Logs,2542.65
+971,Customer_Reviews_2023_Q1_09,REST_API,Retail,2289.43
+972,Healthcare_Records_2021_Q4_91,Kaggle,IoT Sensors,3123.71
+973,Ecommerce_Orders_2021_Q2_59,Azure Blob,Finance,1983.88
+974,CyberThreat_IntelDump_2023_Q1_14,GCP BigQuery,Network Logs,604.52
+975,CyberThreat_IntelDump_2024_Q2_27,AWS S3,Network Logs,2111.86
+976,Energy_Usage_2022_Q4_45,FTP,IoT Sensors,3701.66
+977,NetworkTraffic_2023_Q2_09,AWS S3,Machine Learning,4182.99
+978,Healthcare_Records_2023_Q4_75,REST_API,Energy,3247.95
+979,Finance_Transactions_2024_Q4_59,Kaggle,Manufacturing,703.17
+980,Ecommerce_Orders_2023_Q2_34,Internal_DB,IoT Sensors,1890.92
+981,IoT_SensorReadings_2021_Q2_46,Kaggle,IoT Sensors,4783.26
+982,Manufacturing_Logs_2022_Q3_24,GCP BigQuery,Energy,3982.56
+983,CyberThreat_IntelDump_2022_Q1_06,REST_API,Manufacturing,676.04
+984,IoT_SensorReadings_2023_Q2_27,AWS S3,Energy,1618.87
+985,Finance_Transactions_2022_Q3_58,GCP BigQuery,Healthcare,1542.72
+986,NetworkTraffic_2024_Q4_99,GCP BigQuery,IoT Sensors,4642.67
+987,CyberThreat_IntelDump_2021_Q3_83,Kaggle,IoT Sensors,4485.09
+988,Ecommerce_Orders_2022_Q4_44,Azure Blob,IoT Sensors,4505.86
+989,CyberThreat_IntelDump_2021_Q3_04,FTP,Manufacturing,4212.34
+990,CRM_Leads_2023_Q1_42,AWS S3,Manufacturing,3224.5
+991,Manufacturing_Logs_2022_Q3_26,AWS S3,Finance,2715.14
+992,CRM_Leads_2021_Q4_25,On-Prem NAS,Retail,3035.7
+993,Healthcare_Records_2021_Q3_51,GCP BigQuery,CRM,1879.67
+994,Finance_Transactions_2021_Q3_45,REST_API,Network Logs,4888.74
+995,Research_Surveys_2021_Q2_94,On-Prem NAS,CRM,4028.24
+996,IoT_SensorReadings_2022_Q4_94,FTP,HR,4185.78
+997,Manufacturing_Logs_2021_Q2_27,Kaggle,IoT Sensors,4942.49
+998,Healthcare_Records_2023_Q1_76,FTP,Finance,82.76
+999,Energy_Usage_2023_Q4_23,On-Prem NAS,Manufacturing,3788.46
+1000,CyberThreat_IntelDump_2022_Q2_49,Kaggle,Healthcare,2478.4
