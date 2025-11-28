@@ -1,0 +1,146 @@
+============================================================
+STARTING COMPLETE DATABASE SETUP
+============================================================
+
+[1/5] Connecting to database...
+✅ Connected
+
+[2/5] Creating database tables...
+Users table created.
+Cyber Incidents table created.
+Datasets Metadata table created.
+IT Tickets table created.
+
+[3/5] Migrating users from users.txt...
+
+[4/5] Loading CSV data...
+  Reading cyber_incidents.csv...
+  Read 481 rows from cyber_incidents.csv
+  Getting table info for cyber_incidents...
+    Table columns: ['id', 'title', 'date', 'affiliations', 'description', 'response', 'victims', 'sponsor', 'incident_type', 'category', 'sources_1', 'sources_2', 'sources_3', 'severity', 'status', 'reported_by', 'created_at']
+  Building column mapping...
+    Mapping: {'Title': 'title', 'Date': 'date', 'Affiliations': 'affiliations', 'Description': 'description', 'Response': 'response', 'Victims': 'victims', 'Sponsor': 'sponsor', 'Type': 'incident_type', 'Category': 'category', 'Sources_1': 'sources_1', 'Sources_2': 'sources_2', 'Sources_3': 'sources_3'}
+  Building rows tuple...
+  Inserting 481 rows...
+  Loaded 481 rows into cyber_incidents (inserted 481 rows)
+  Reading datasets_metadata.csv...
+  Read 1000 rows from datasets_metadata.csv
+  Getting table info for datasets_metadata...
+    Table columns: ['id', 'dataset_name', 'file_type', 'size_mb', 'date_created']
+  Building column mapping...
+    Mapping: {'id': 'id', 'size_mb': 'size_mb'}
+  Building rows tuple...
+  Inserting 1000 rows...
+  Loaded 1000 rows into datasets_metadata (inserted 1000 rows)
+  Reading it_tickets.csv...
+  Read 1000 rows from it_tickets.csv
+  Getting table info for it_tickets...
+    Table columns: ['ticket_id', 'priority', 'status', 'category', 'subject', 'description', 'created_date', 'resolved_date', 'assigned_to']
+  Building column mapping...
+    Mapping: {'ticket_id': 'ticket_id', 'priority': 'priority', 'status': 'status', 'category': 'category', 'subject': 'subject', 'description': 'description', 'created_date': 'created_date', 'resolved_date': 'resolved_date', 'assigned_to': 'assigned_to'}
+  Building rows tuple...
+  Inserting 1000 rows...
+  Loaded 1000 rows into it_tickets (inserted 1000 rows)
+
+[5/5] Verifying database setup...
+ Tables in DB: ['users', 'sqlite_sequence', 'cyber_incidents', 'datasets_metadata', 'it_tickets']
+
+ Database Summary:
+Table                     Row Count
+----------------------------------------
+users                     0
+cyber_incidents           481
+datasets_metadata         1000
+it_tickets                1000
+
+============================================================
+DATABASE SETUP COMPLETE!
+============================================================
+
+ Database location: C:\Users\vingp\OneDrive\Desktop\Week08\WEEK 8 LAB\week 8 lab\DATA\intelligence_platform.db        
+ You're ready for Week 9 (Streamlit web interface)!
+
+============================================================
+STARTING COMPLETE DATABASE SETUP
+============================================================
+
+[1/5] Connecting to database...
+✅ Connected
+
+[2/5] Creating database tables...
+Users table created.
+Cyber Incidents table created.
+Datasets Metadata table created.
+IT Tickets table created.
+
+[3/5] Migrating users from users.txt...
+
+[4/5] Loading CSV data...
+  Reading cyber_incidents.csv...
+  Read 481 rows from cyber_incidents.csv
+  Getting table info for cyber_incidents...
+    Table columns: ['id', 'title', 'date', 'affiliations', 'description', 'response', 'victims', 'sponsor', 'incident_type', 'category', 'sources_1', 'sources_2', 'sources_3', 'severity', 'status', 'reported_by', 'created_at']
+  Building column mapping...
+    Mapping: {'Title': 'title', 'Date': 'date', 'Affiliations': 'affiliations', 'Description': 'description', 'Response': 'response', 'Victims': 'victims', 'Sponsor': 'sponsor', 'Type': 'incident_type', 'Category': 'category', 'Sources_1': 'sources_1', 'Sources_2': 'sources_2', 'Sources_3': 'sources_3'}
+  Building rows tuple...
+  Inserting 481 rows...
+  Loaded 481 rows into cyber_incidents (inserted 481 rows)
+  Reading datasets_metadata.csv...
+  Read 1000 rows from datasets_metadata.csv
+  Getting table info for datasets_metadata...
+    Table columns: ['id', 'dataset_name', 'file_type', 'size_mb', 'date_created']
+  Building column mapping...
+    Mapping: {'id': 'id', 'size_mb': 'size_mb'}
+  Building rows tuple...
+  Inserting 1000 rows...
+  Loaded 1000 rows into datasets_metadata (inserted 0 rows)
+  Reading it_tickets.csv...
+  Read 1000 rows from it_tickets.csv
+  Getting table info for it_tickets...
+    Table columns: ['ticket_id', 'priority', 'status', 'category', 'subject', 'description', 'created_date', 'resolved_date', 'assigned_to']
+  Building column mapping...
+    Mapping: {'ticket_id': 'ticket_id', 'priority': 'priority', 'status': 'status', 'category': 'category', 'subject': 'subject', 'description': 'description', 'created_date': 'created_date', 'resolved_date': 'resolved_date', 'assigned_to': 'assigned_to'}
+  Building rows tuple...
+  Inserting 1000 rows...
+  Loaded 1000 rows into it_tickets (inserted 0 rows)
+
+[5/5] Verifying database setup...
+ Tables in DB: ['users', 'sqlite_sequence', 'cyber_incidents', 'datasets_metadata', 'it_tickets']
+
+ Database Summary:
+Table                     Row Count
+----------------------------------------
+users                     0
+cyber_incidents           962
+datasets_metadata         1000
+it_tickets                1000
+
+============================================================
+DATABASE SETUP COMPLETE!
+============================================================
+
+ Database location: C:\Users\vingp\OneDrive\Desktop\Week08\WEEK 8 LAB\week 8 lab\DATA\intelligence_platform.db        
+ You're ready for Week 9 (Streamlit web interface)!
+
+============================================================
+🧪 RUNNING COMPREHENSIVE TESTS
+============================================================
+
+[TEST 1] Authentication
+  Register: ✅ User 'test_user' registered successfully.
+  Login:    ✅ Login successful!
+
+[TEST 2] CRUD Operations
+  Create: Creating test incident...
+  Create: Incident #963 created
+  Read:    Found incident #963
+  Update:  Status updated
+  Delete:  Incident deleted
+
+[TEST 3] Analytical Queries
+  By Type:     Found 8 incident types
+  High Severity: Found 0 status categories
+
+============================================================
+ ALL TESTS PASSED!
+============================================================
