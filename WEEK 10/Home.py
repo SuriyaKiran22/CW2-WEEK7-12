@@ -200,8 +200,8 @@ def dashboard_page():
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        if st.button("📊 Cybersecurity Dashboard", use_container_width=True):
-            st.info("Navigate to Cybersecurity Dashboard")
+        if st.button("📊 Dashboard", use_container_width=True):
+            st.info("Navigate to Dashboard")
     
     with col2:
         if st.button("📈 Analytics", use_container_width=True):

@@ -2,18 +2,17 @@ from app.data.db import connect_database
 
 
 def get_user_by_username(username):
+    """Get user by username from database"""
     conn = connect_database()
     cursor = conn.cursor()
-    cursor.execute(
-        "SELECT * FROM users WHERE username = ?",
-        (username,)
-    )
+    cursor.execute("SELECT * FROM users WHERE username = ?", (username,))
     user = cursor.fetchone()
     conn.close()
     return user
 
 
 def insert_user(username, password_hash, role='user'):
+    """Insert a new user into the database"""
     conn = connect_database()
     cursor = conn.cursor()
     cursor.execute(
@@ -25,17 +24,10 @@ def insert_user(username, password_hash, role='user'):
 
 
 def get_all_users():
+    """Get all users from database"""
     conn = connect_database()
     cursor = conn.cursor()
     cursor.execute("SELECT id, username, role FROM users")
     users = cursor.fetchall()
     conn.close()
     return users
-
-
-def delete_user(username):
-    conn = connect_database()
-    cursor = conn.cursor()
-    cursor.execute("DELETE FROM users WHERE username = ?", (username,))
-    conn.commit()
-    conn.close()

@@ -5,11 +5,7 @@ from pathlib import Path
 from app.data.db import connect_database
 from app.data.schema import create_all_tables
 
-st.set_page_config(
-    page_title="Cybersecurity Dashboard",
-    page_icon="shield",
-    layout="wide"
-)
+st.set_page_config(page_title="Dashboard", page_icon="shield", layout="wide")
 
 if "logged_in" not in st.session_state or not st.session_state.logged_in:
     st.error("Please log in first!")
@@ -21,365 +17,229 @@ with st.sidebar:
 
 st.title("Dashboard")
 
-# Dashboard selection buttons
 col1, col2, col3 = st.columns(3)
 with col1:
-    if st.button("🛡️ Cybersecurity", use_container_width=True):
+    if st.button("Cybersecurity", use_container_width=True):
         st.session_state.dashboard_view = "cybersecurity"
 with col2:
-    if st.button("🎫 IT Tickets", use_container_width=True):
+    if st.button("IT Tickets", use_container_width=True):
         st.session_state.dashboard_view = "tickets"
 with col3:
-    if st.button("📊 Data Science", use_container_width=True):
+    if st.button("Data Science", use_container_width=True):
         st.session_state.dashboard_view = "datascience"
 
-# Initialize dashboard view
 if "dashboard_view" not in st.session_state:
     st.session_state.dashboard_view = "cybersecurity"
 
 st.divider()
 
-def load_csv_to_database():
-    """Load data from CSV files into database if tables are empty."""
+def load_csv():
     conn = connect_database()
     cursor = conn.cursor()
-    
-    # Load cyber incidents
-    cursor.execute("SELECT COUNT(*) FROM cyber_incidents")
-    count = cursor.fetchone()[0]
-    if count == 0:
-        csv_path = Path("DATA") / "cyber_incidents.csv"
-        if csv_path.exists():
-            df = pd.read_csv(csv_path)
-            if 'id' in df.columns:
-                df = df.drop('id', axis=1)
-            df.to_sql('cyber_incidents', conn, if_exists='append', index=False)
-            conn.commit()
-    
-    # Load IT tickets
-    cursor.execute("SELECT COUNT(*) FROM it_tickets")
-    count = cursor.fetchone()[0]
-    if count == 0:
-        csv_path = Path("DATA") / "it_tickets.csv"
-        if csv_path.exists():
-            df = pd.read_csv(csv_path)
-            if 'id' in df.columns:
-                df = df.drop('id', axis=1)
-            df.to_sql('it_tickets', conn, if_exists='append', index=False)
-            conn.commit()
-    
-    # Load datasets metadata
-    cursor.execute("SELECT COUNT(*) FROM datasets_metadata")
-    count = cursor.fetchone()[0]
-    if count == 0:
-        csv_path = Path("DATA") / "datasets_metadata.csv"
-        if csv_path.exists():
-            df = pd.read_csv(csv_path)
-            if 'id' in df.columns:
-                df = df.drop('id', axis=1)
-            df.to_sql('datasets_metadata', conn, if_exists='append', index=False)
-            conn.commit()
-    
+    for table, csv_file in {'cyber_incidents': 'cyber_incidents.csv', 'it_tickets': 'it_tickets.csv', 'datasets_metadata': 'datasets_metadata.csv'}.items():
+        cursor.execute(f"SELECT COUNT(*) FROM {table}")
+        if cursor.fetchone()[0] == 0:
+            csv_path = Path("DATA") / csv_file
+            if csv_path.exists():
+                df = pd.read_csv(csv_path)
+                if 'id' in df.columns:
+                    df = df.drop('id', axis=1)
+                df.to_sql(table, conn, if_exists='append', index=False)
+    conn.commit()
     conn.close()
 
 try:
     from app.data.incidents import get_all_incidents
-    
     conn = connect_database()
     create_all_tables(conn)
     conn.close()
+    load_csv()
     
-    load_csv_to_database()
+    conn = connect_database()
     
-    # ========================= CYBERSECURITY DASHBOARD =========================
     if st.session_state.dashboard_view == "cybersecurity":
-        st.header("🛡️ Cybersecurity Dashboard")
+        st.header("Cybersecurity Dashboard")
+        df = get_all_incidents()
         
-        incidents_df = get_all_incidents()
-        
-        if incidents_df.empty:
-            st.warning("No incidents data available")
-        else:
+        if not df.empty:
             col1, col2, col3, col4 = st.columns(4)
-            
-            with col1:
-                st.metric("Total Incidents", len(incidents_df))
-            
-            with col2:
-                critical = len(incidents_df[incidents_df['severity'] == 'critical'])
-                st.metric("Critical", critical)
-            
-            with col3:
-                high = len(incidents_df[incidents_df['severity'] == 'high'])
-                st.metric("High", high)
-            
-            with col4:
-                resolved = len(incidents_df[incidents_df['status'] == 'resolved'])
-                st.metric("Resolved", resolved)
+            col1.metric("Total", len(df))
+            col2.metric("Critical", len(df[df['severity'] == 'critical']))
+            col3.metric("High", len(df[df['severity'] == 'high']))
+            col4.metric("Resolved", len(df[df['status'] == 'resolved']))
             
             st.divider()
-            
             col1, col2 = st.columns(2)
-            
             with col1:
-                st.subheader("Incidents by Severity")
-                severity_counts = incidents_df['severity'].value_counts()
-                fig = px.bar(
-                    x=severity_counts.index,
-                    y=severity_counts.values,
-                    labels={'x': 'Severity', 'y': 'Count'}
-                )
+                fig = px.bar(x=df['severity'].value_counts().index, y=df['severity'].value_counts().values, title="By Severity")
                 st.plotly_chart(fig, use_container_width=True)
-            
             with col2:
-                st.subheader("Incidents by Status")
-                status_counts = incidents_df['status'].value_counts()
-                fig = px.pie(
-                    values=status_counts.values,
-                    names=status_counts.index,
-                    title="Status Distribution"
-                )
+                fig = px.pie(values=df['status'].value_counts().values, names=df['status'].value_counts().index, title="By Status")
                 st.plotly_chart(fig, use_container_width=True)
             
             st.divider()
-            
-            col1, col2 = st.columns(2)
-            
-            with col1:
-                st.subheader("Incidents by Type")
-                type_counts = incidents_df['incident_type'].value_counts()
-                fig = px.bar(
-                    x=type_counts.values,
-                    y=type_counts.index,
-                    labels={'x': 'Count', 'y': 'Incident Type'},
-                    orientation='h'
-                )
-                st.plotly_chart(fig, use_container_width=True)
-            
-            with col2:
-                st.subheader("Incidents Timeline")
-                incidents_df['date'] = pd.to_datetime(incidents_df['date'])
-                timeline_df = incidents_df.groupby(incidents_df['date'].dt.date).size().reset_index()
-                timeline_df.columns = ['date', 'count']
-                fig = px.line(
-                    timeline_df,
-                    x='date',
-                    y='count',
-                    labels={'date': 'Date', 'count': 'Number of Incidents'},
-                    markers=True
-                )
-                st.plotly_chart(fig, use_container_width=True)
+            st.dataframe(df, use_container_width=True)
             
             st.divider()
+            tab1, tab2, tab3, tab4 = st.tabs(["Create", "Update", "Delete", "View All"])
             
-            with st.expander("View All Incidents"):
-                st.dataframe(incidents_df, use_container_width=True)
+            with tab1:
+                with st.form("create"):
+                    incident_type = st.text_input("Incident Type")
+                    severity = st.selectbox("Severity", ["low", "medium", "high", "critical"])
+                    if st.form_submit_button("Create") and incident_type:
+                        conn.execute("INSERT INTO cyber_incidents (date, incident_type, severity, status, description, reported_by) VALUES (?, ?, ?, 'open', '', ?)",
+                                   (str(pd.Timestamp.now().date()), incident_type, severity, st.session_state.username))
+                        conn.commit()
+                        st.success("Created!")
+                        st.rerun()
+            
+            with tab2:
+                temp_df = pd.read_sql_query("SELECT id, incident_type FROM cyber_incidents", conn)
+                if not temp_df.empty:
+                    with st.form("update"):
+                        incident_id = st.selectbox("ID", temp_df['id'].tolist())
+                        new_status = st.selectbox("Status", ["open", "in_progress", "resolved", "closed"])
+                        if st.form_submit_button("Update"):
+                            conn.execute("UPDATE cyber_incidents SET status=? WHERE id=?", (new_status, incident_id))
+                            conn.commit()
+                            st.success("Updated!")
+                            st.rerun()
+            
+            with tab3:
+                with st.form("delete"):
+                    incident_id = st.number_input("ID", min_value=1, step=1)
+                    if st.form_submit_button("Delete"):
+                        conn.execute("DELETE FROM cyber_incidents WHERE id=?", (incident_id,))
+                        conn.commit()
+                        st.success("Deleted!")
+                        st.rerun()
+            
+            with tab4:
+                st.dataframe(df, use_container_width=True)
     
-    # ========================= IT TICKETS DASHBOARD =========================
     elif st.session_state.dashboard_view == "tickets":
-        st.header("🎫 IT Tickets Dashboard")
+        st.header("IT Tickets Dashboard")
+        df = pd.read_sql_query("SELECT * FROM it_tickets", conn)
         
-        conn = connect_database()
-        tickets_df = pd.read_sql_query("SELECT * FROM it_tickets", conn)
-        conn.close()
-        
-        if tickets_df.empty:
-            st.warning("No IT tickets data available")
-        else:
+        if not df.empty:
             col1, col2, col3, col4 = st.columns(4)
-            
-            with col1:
-                st.metric("Total Tickets", len(tickets_df))
-            
-            with col2:
-                open_tickets = len(tickets_df[tickets_df['status'] == 'open'])
-                st.metric("Open", open_tickets)
-            
-            with col3:
-                in_progress = len(tickets_df[tickets_df['status'] == 'in_progress'])
-                st.metric("In Progress", in_progress)
-            
-            with col4:
-                closed = len(tickets_df[tickets_df['status'] == 'closed'])
-                st.metric("Closed", closed)
+            col1.metric("Total", len(df))
+            col2.metric("Open", len(df[df['status'] == 'open']))
+            col3.metric("In Progress", len(df[df['status'] == 'in_progress']))
+            col4.metric("Closed", len(df[df['status'] == 'closed']))
             
             st.divider()
-            
-            # System health metrics
-            col1, col2, col3 = st.columns(3)
-            
-            with col1:
-                st.metric("CPU Usage", "67%", delta="+5%")
-            
-            with col2:
-                st.metric("Memory", "8.2 GB", delta="+0.3 GB")
-            
-            with col3:
-                st.metric("Uptime", "99.8%", delta="+0.1%")
-            
-            st.divider()
-            
             col1, col2 = st.columns(2)
-            
             with col1:
-                st.subheader("Tickets by Priority")
-                priority_counts = tickets_df['priority'].value_counts()
-                fig = px.bar(
-                    x=priority_counts.index,
-                    y=priority_counts.values,
-                    labels={'x': 'Priority', 'y': 'Count'}
-                )
+                fig = px.bar(x=df['priority'].value_counts().index, y=df['priority'].value_counts().values, title="By Priority")
                 st.plotly_chart(fig, use_container_width=True)
-            
             with col2:
-                st.subheader("Tickets by Status")
-                status_counts = tickets_df['status'].value_counts()
-                fig = px.pie(
-                    values=status_counts.values,
-                    names=status_counts.index,
-                    title="Status Distribution"
-                )
+                fig = px.pie(values=df['status'].value_counts().values, names=df['status'].value_counts().index, title="By Status")
                 st.plotly_chart(fig, use_container_width=True)
             
             st.divider()
-            
-            col1, col2 = st.columns(2)
-            
-            with col1:
-                st.subheader("Tickets Timeline")
-                tickets_df['created_date'] = pd.to_datetime(tickets_df['created_date'])
-                timeline_df = tickets_df.groupby(tickets_df['created_date'].dt.date).size().reset_index()
-                timeline_df.columns = ['date', 'count']
-                fig = px.line(
-                    timeline_df,
-                    x='date',
-                    y='count',
-                    labels={'date': 'Date', 'count': 'Number of Tickets'},
-                    markers=True
-                )
-                st.plotly_chart(fig, use_container_width=True)
-            
-            with col2:
-                st.subheader("Resource Usage Over Time")
-                usage = pd.DataFrame({
-                    "time": ["00:00", "06:00", "12:00", "18:00", "23:59"],
-                    "CPU": [45, 52, 78, 82, 67],
-                    "Memory": [6.2, 6.8, 8.5, 9.1, 8.2]
-                })
-                fig = px.line(
-                    usage,
-                    x='time',
-                    y=['CPU', 'Memory'],
-                    labels={'value': 'Usage', 'time': 'Time'},
-                    markers=True
-                )
-                st.plotly_chart(fig, use_container_width=True)
+            st.dataframe(df, use_container_width=True)
             
             st.divider()
+            tab1, tab2, tab3, tab4 = st.tabs(["Create", "Update", "Delete", "View All"])
             
-            with st.expander("View All Tickets"):
-                st.dataframe(tickets_df, use_container_width=True)
+            with tab1:
+                with st.form("create"):
+                    title = st.text_input("Title")
+                    priority = st.selectbox("Priority", ["low", "medium", "high", "critical"])
+                    if st.form_submit_button("Create") and title:
+                        conn.execute("INSERT INTO it_tickets (title, priority, status, created_date) VALUES (?, ?, 'open', ?)",
+                                   (title, priority, str(pd.Timestamp.now().date())))
+                        conn.commit()
+                        st.success("Created!")
+                        st.rerun()
+            
+            with tab2:
+                temp_df = pd.read_sql_query("SELECT id, title FROM it_tickets", conn)
+                if not temp_df.empty:
+                    with st.form("update"):
+                        ticket_id = st.selectbox("ID", temp_df['id'].tolist())
+                        new_status = st.selectbox("Status", ["open", "in_progress", "closed"])
+                        if st.form_submit_button("Update"):
+                            conn.execute("UPDATE it_tickets SET status=? WHERE id=?", (new_status, ticket_id))
+                            conn.commit()
+                            st.success("Updated!")
+                            st.rerun()
+            
+            with tab3:
+                with st.form("delete"):
+                    ticket_id = st.number_input("ID", min_value=1, step=1)
+                    if st.form_submit_button("Delete"):
+                        conn.execute("DELETE FROM it_tickets WHERE id=?", (ticket_id,))
+                        conn.commit()
+                        st.success("Deleted!")
+                        st.rerun()
+            
+            with tab4:
+                st.dataframe(df, use_container_width=True)
     
-    # ========================= DATA SCIENCE DASHBOARD =========================
     elif st.session_state.dashboard_view == "datascience":
-        st.header("📊 Data Science Dashboard")
+        st.header("Data Science Dashboard")
+        df = pd.read_sql_query("SELECT * FROM datasets_metadata", conn)
         
-        conn = connect_database()
-        datasets_df = pd.read_sql_query("SELECT * FROM datasets_metadata", conn)
-        conn.close()
-        
-        if datasets_df.empty:
-            st.warning("No datasets data available")
-        else:
+        if not df.empty:
             col1, col2, col3, col4 = st.columns(4)
-            
-            with col1:
-                st.metric("Total Datasets", len(datasets_df))
-            
-            with col2:
-                security = len(datasets_df[datasets_df['category'] == 'Security'])
-                st.metric("Security", security)
-            
-            with col3:
-                analytics = len(datasets_df[datasets_df['category'] == 'Analytics'])
-                st.metric("Analytics", analytics)
-            
-            with col4:
-                avg_size = datasets_df['size'].mean()
-                st.metric("Avg Size (KB)", f"{avg_size:.1f}")
+            col1.metric("Total", len(df))
+            col2.metric("Security", len(df[df['category'] == 'Security']))
+            col3.metric("Analytics", len(df[df['category'] == 'Analytics']))
+            col4.metric("Avg Size", f"{df['size'].mean():.1f}")
             
             st.divider()
-            
-            # Model performance metrics
-            col1, col2, col3 = st.columns(3)
-            
-            with col1:
-                st.metric("Accuracy", "94.2%")
-            
-            with col2:
-                st.metric("Precision", "91.8%")
-            
-            with col3:
-                st.metric("Recall", "89.5%")
-            
-            st.divider()
-            
             col1, col2 = st.columns(2)
-            
-            with col2:
-                st.subheader("Datasets by Source")
-                source_counts = datasets_df['source'].value_counts()
-                fig = px.bar(
-                    x=source_counts.index,
-                    y=source_counts.values,
-                    labels={'x': 'Source', 'y': 'Count'}
-                )
-                st.plotly_chart(fig, use_container_width=True)
-            
-            with col2:
-                st.subheader("Datasets by Category")
-                category_counts = datasets_df['category'].value_counts()
-                fig = px.pie(
-                    values=category_counts.values,
-                    names=category_counts.index,
-                    title="Category Distribution"
-                )
-                st.plotly_chart(fig, use_container_width=True)
-            
-            st.divider()
-            
-            col1, col2 = st.columns(2)
-            
             with col1:
-                st.subheader("Dataset Size Distribution")
-                fig = px.histogram(
-                    datasets_df,
-                    x='size',
-                    nbins=20,
-                    labels={'size': 'Size (KB)', 'count': 'Number of Datasets'}
-                )
+                fig = px.bar(x=df['source'].value_counts().index, y=df['source'].value_counts().values, title="By Source")
                 st.plotly_chart(fig, use_container_width=True)
-            
             with col2:
-                st.subheader("Training History")
-                history = pd.DataFrame({
-                    "epoch": [1, 2, 3, 4, 5],
-                    "loss": [0.45, 0.32, 0.24, 0.18, 0.15],
-                    "accuracy": [0.78, 0.85, 0.89, 0.92, 0.94]
-                })
-                fig = px.line(
-                    history,
-                    x='epoch',
-                    y=['loss', 'accuracy'],
-                    labels={'value': 'Value', 'epoch': 'Epoch'},
-                    markers=True
-                )
+                fig = px.pie(values=df['category'].value_counts().values, names=df['category'].value_counts().index, title="By Category")
                 st.plotly_chart(fig, use_container_width=True)
             
             st.divider()
+            st.dataframe(df, use_container_width=True)
             
-            with st.expander("View All Datasets"):
-                st.dataframe(datasets_df, use_container_width=True)
+            st.divider()
+            tab1, tab2, tab3, tab4 = st.tabs(["Create", "Update", "Delete", "View All"])
+            
+            with tab1:
+                with st.form("create"):
+                    name = st.text_input("Dataset Name")
+                    category = st.selectbox("Category", ["Security", "Analytics", "Operations"])
+                    if st.form_submit_button("Create") and name:
+                        conn.execute("INSERT INTO datasets_metadata (name, category, source, size) VALUES (?, ?, 'Manual', 0)", (name, category))
+                        conn.commit()
+                        st.success("Created!")
+                        st.rerun()
+            
+            with tab2:
+                temp_df = pd.read_sql_query("SELECT id, name FROM datasets_metadata", conn)
+                if not temp_df.empty:
+                    with st.form("update"):
+                        dataset_id = st.selectbox("ID", temp_df['id'].tolist())
+                        new_category = st.selectbox("Category", ["Security", "Analytics", "Operations"])
+                        if st.form_submit_button("Update"):
+                            conn.execute("UPDATE datasets_metadata SET category=? WHERE id=?", (new_category, dataset_id))
+                            conn.commit()
+                            st.success("Updated!")
+                            st.rerun()
+            
+            with tab3:
+                with st.form("delete"):
+                    dataset_id = st.number_input("ID", min_value=1, step=1)
+                    if st.form_submit_button("Delete"):
+                        conn.execute("DELETE FROM datasets_metadata WHERE id=?", (dataset_id,))
+                        conn.commit()
+                        st.success("Deleted!")
+                        st.rerun()
+            
+            with tab4:
+                st.dataframe(df, use_container_width=True)
+    
+    conn.close()
 
 except Exception as e:
-    st.error(f"Error loading data: {str(e)}")
+    st.error(f"Error: {str(e)}")

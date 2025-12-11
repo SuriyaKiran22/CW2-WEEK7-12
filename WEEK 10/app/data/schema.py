@@ -12,7 +12,7 @@ def create_users_table(conn):
         )
     """)
     conn.commit()
-    print(" Users table created")
+    print("✓ Users table created")
 
 
 def create_cyber_incidents_table(conn):

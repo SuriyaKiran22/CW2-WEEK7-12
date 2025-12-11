@@ -16,6 +16,13 @@ def register_user(username, password, role='user'):
     ).decode('utf-8')
     
     insert_user(username, password_hash, role)
+    
+    # Append to users.txt
+    users_file = Path('DATA/users.txt')
+    users_file.parent.mkdir(parents=True, exist_ok=True)
+    with open(users_file, 'a') as f:
+        f.write(f"{username},{password_hash}\n")
+    
     return True, f"User '{username}' registered successfully!"
 
 
