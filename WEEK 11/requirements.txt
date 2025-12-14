@@ -1,0 +1,14 @@
+# Multi-Domain Intelligence Platform - Dependencies
+
+# Core Framework
+streamlit==1.29.0
+
+# Data Science & Visualization
+pandas==2.1.4
+plotly==5.18.0
+numpy==1.26.2
+
+# AI/ML Integration (Optional - for AI Assistant)
+openai==1.6.1
+
+# Note: Python 3.10+ required for union type syntax (str | None)
